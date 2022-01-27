@@ -1,4 +1,4 @@
-import 'package:blogsquid/config/app.dart';
+import 'package:vapual/config/app.dart';
 import 'package:flutter/material.dart';
 
 class LogoWidget extends StatelessWidget {
@@ -11,11 +11,11 @@ class LogoWidget extends StatelessWidget {
     return Row(
       children: [
         Text(
-          "Blog",
+          "Vapual",
           style: TextStyle(fontWeight: FontWeight.bold, color: color == "dark" ? Colors.white: Colors.black, fontSize: size),
         ),
         Text(
-          "squid",
+          ".",
           style: TextStyle(
               fontWeight: FontWeight.bold, fontSize: size, color: colorPrimary),
         ),

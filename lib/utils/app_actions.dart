@@ -1,5 +1,5 @@
-import 'package:blogsquid/config/app.dart';
-import 'package:blogsquid/pages/dashboard.dart';
+import 'package:vapual/config/app.dart';
+import 'package:vapual/pages/dashboard.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';

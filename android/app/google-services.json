@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "249986811278",
-    "project_id": "blogsquid",
-    "storage_bucket": "blogsquid.appspot.com"
+    "project_id": "vapual",
+    "storage_bucket": "vapual.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:249986811278:android:8bf0d9b35a8d572d6b90df",
         "android_client_info": {
-          "package_name": "org.durabyte.blogsquid"
+          "package_name": "com.vapual"
         }
       },
       "oauth_client": [

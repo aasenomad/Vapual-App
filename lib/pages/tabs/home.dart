@@ -1,16 +1,16 @@
 import 'dart:convert';
 
-import 'package:blogsquid/components/empty_error.dart';
-import 'package:blogsquid/components/logo.dart';
-import 'package:blogsquid/components/network_error.dart';
-import 'package:blogsquid/config/app.dart';
-import 'package:blogsquid/config/modules.dart';
-import 'package:blogsquid/pages/categories/category_detail.dart';
-import 'package:blogsquid/pages/categories/subCategories.dart';
-import 'package:blogsquid/pages/posts/each_post.dart';
-import 'package:blogsquid/pages/posts/load_post.dart';
-import 'package:blogsquid/utils/network.dart';
-import 'package:blogsquid/utils/Providers.dart';
+import 'package:vapual/components/empty_error.dart';
+import 'package:vapual/components/logo.dart';
+import 'package:vapual/components/network_error.dart';
+import 'package:vapual/config/app.dart';
+import 'package:vapual/config/modules.dart';
+import 'package:vapual/pages/categories/category_detail.dart';
+import 'package:vapual/pages/categories/subCategories.dart';
+import 'package:vapual/pages/posts/each_post.dart';
+import 'package:vapual/pages/posts/load_post.dart';
+import 'package:vapual/utils/network.dart';
+import 'package:vapual/utils/Providers.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

@@ -1,9 +1,9 @@
-import 'package:blogsquid/config/app.dart';
-import 'package:blogsquid/pages/categories/subCategories.dart';
-import 'package:blogsquid/pages/tabs/account.dart';
-import 'package:blogsquid/pages/tabs/bookmarks.dart';
-import 'package:blogsquid/pages/tabs/categories.dart';
-import 'package:blogsquid/pages/tabs/search.dart';
+import 'package:vapual/config/app.dart';
+import 'package:vapual/pages/categories/subCategories.dart';
+import 'package:vapual/pages/tabs/account.dart';
+import 'package:vapual/pages/tabs/bookmarks.dart';
+import 'package:vapual/pages/tabs/categories.dart';
+import 'package:vapual/pages/tabs/search.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';

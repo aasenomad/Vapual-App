@@ -1,4 +1,4 @@
-# blogsquid
+# vapual
 
 A new Flutter project.
 

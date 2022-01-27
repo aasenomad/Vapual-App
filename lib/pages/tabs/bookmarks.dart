@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:blogsquid/components/empty_error.dart';
-import 'package:blogsquid/config/app.dart';
-import 'package:blogsquid/pages/posts/each_post.dart';
-import 'package:blogsquid/utils/Providers.dart';
+import 'package:vapual/components/empty_error.dart';
+import 'package:vapual/config/app.dart';
+import 'package:vapual/pages/posts/each_post.dart';
+import 'package:vapual/utils/Providers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -50,7 +50,7 @@ class Bookmarks extends HookWidget {
           if (categories.value
               .where((element) => element['name'] == ecitem['name'])
               .isEmpty) {
-            categories.value.add({"id": ecitem['id'], "name": ecitem['name']});
+           // categories.value.add({"id": ecitem['id'], "name": ecitem['name']});
             // for (var name in categories.value) {
             //   if (ecitem['id'] == name['id']) {
             //     print('positive');

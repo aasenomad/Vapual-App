@@ -5,7 +5,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'prepare.dart';
-import 'package:blogsquid/utils/globals.dart' as globals;
+import 'package:vapual/utils/globals.dart' as globals;
 
 void main() {
   globals.appNavigator = GlobalKey<NavigatorState>();
@@ -28,7 +28,7 @@ class MyApp extends HookWidget {
       ));
     }, const []);
     return MaterialApp(
-      title: 'Blog Squid',
+      title: 'Vapual.',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: "Circular",

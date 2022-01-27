@@ -1,14 +1,14 @@
 import 'dart:convert';
 
-import 'package:blogsquid/components/form/botton_widget.dart';
-import 'package:blogsquid/components/form/text_input_widget.dart';
-import 'package:blogsquid/components/logo.dart';
-import 'package:blogsquid/config/app.dart';
-import 'package:blogsquid/pages/auth/create_account.dart';
-import 'package:blogsquid/pages/tabs/account.dart';
-import 'package:blogsquid/utils/Providers.dart';
-import 'package:blogsquid/utils/network.dart';
-import 'package:blogsquid/utils/app_actions.dart';
+import 'package:vapual/components/form/botton_widget.dart';
+import 'package:vapual/components/form/text_input_widget.dart';
+import 'package:vapual/components/logo.dart';
+import 'package:vapual/config/app.dart';
+import 'package:vapual/pages/auth/create_account.dart';
+import 'package:vapual/pages/tabs/account.dart';
+import 'package:vapual/utils/Providers.dart';
+import 'package:vapual/utils/network.dart';
+import 'package:vapual/utils/app_actions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:google_sign_in/google_sign_in.dart';

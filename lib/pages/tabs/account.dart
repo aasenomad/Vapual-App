@@ -1,13 +1,13 @@
 import 'dart:convert';
 
-import 'package:blogsquid/components/empty_error.dart';
-import 'package:blogsquid/components/network_error.dart';
-import 'package:blogsquid/config/app.dart';
-import 'package:blogsquid/pages/auth/login.dart';
-import 'package:blogsquid/pages/show_page.dart';
-import 'package:blogsquid/utils/app_actions.dart';
-import 'package:blogsquid/utils/network.dart';
-import 'package:blogsquid/utils/Providers.dart';
+import 'package:vapual/components/empty_error.dart';
+import 'package:vapual/components/network_error.dart';
+import 'package:vapual/config/app.dart';
+import 'package:vapual/pages/auth/login.dart';
+import 'package:vapual/pages/show_page.dart';
+import 'package:vapual/utils/app_actions.dart';
+import 'package:vapual/utils/network.dart';
+import 'package:vapual/utils/Providers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';

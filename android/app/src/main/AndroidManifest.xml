@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.durabyte.blogsquid">
+    package="com.vapual">
 
     <meta-data 
       android:name="com.onesignal.suppressLaunchURLs" 
@@ -7,7 +7,7 @@
       />
       
    <application
-        android:label="Blogsquid"
+        android:label="Vapual"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

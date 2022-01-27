@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:blogsquid/config/app.dart';
+import 'package:vapual/config/app.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:http/http.dart' as http;
 
