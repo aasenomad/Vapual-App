@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/android/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/8770e30066ade077d7e8c669d9e2b528/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/android/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/8770e30066ade077d7e8c669d9e2b528/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/android/build/intermediates/res/merged/debug/layout/custom_dialog.xml",
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/8770e30066ade077d7e8c669d9e2b528/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/android/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/8770e30066ade077d7e8c669d9e2b528/core-1.6.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/android/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/8770e30066ade077d7e8c669d9e2b528/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/android/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/8770e30066ade077d7e8c669d9e2b528/core-1.6.0/res/layout/notification_action.xml"
+    }
+]

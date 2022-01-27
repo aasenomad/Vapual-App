@@ -18,19 +18,19 @@ class Onboarding extends HookWidget {
       {
         "title": "Read from anywhere",
         "body":
-            "We provide access to premium Falam, Hakha, Tedim, and others blogs to be enjoyed from the comfort of your home.",
+            "We provide access to premium Falam, Hakha, Tedim, and Other blogs to be enjoyed from the comfort of your home.",
         "url": "Blogging"
       },
       {
         "title": "Get Connected",
         "body":
-            "We provide access to premium Falam, Hakha, Tedim, and others blogs to be enjoyed from the comfort of your home.",
+            "We provide access to premium Falam, Hakha, Tedim, and Other blogs to be enjoyed from the comfort of your home.",
         "url": "Growth Animation"
       },
       {
         "title": "Stay in touch with the world",
         "body":
-            "We provide access to premium Falam, Hakha, Tedim, and others blogs to be enjoyed from the comfort of your home.",
+            "We provide access to premium Falam, Hakha, Tedim, and Other blogs to be enjoyed from the comfort of your home.",
         "url": "Chating using apps Colour"
       }
     ];

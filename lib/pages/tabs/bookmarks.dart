@@ -50,7 +50,7 @@ class Bookmarks extends HookWidget {
           if (categories.value
               .where((element) => element['name'] == ecitem['name'])
               .isEmpty) {
-           // categories.value.add({"id": ecitem['id'], "name": ecitem['name']});
+            categories.value.add({"id": ecitem['id'], "name": ecitem['name']});
             // for (var name in categories.value) {
             //   if (ecitem['id'] == name['id']) {
             //     print('positive');

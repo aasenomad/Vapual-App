@@ -1,8 +1,10 @@
+import 'package:vapual/components/provider_files.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:provider/provider.dart' as provider;
 
 import 'prepare.dart';
 import 'package:vapual/utils/globals.dart' as globals;
@@ -15,7 +17,14 @@ void main() {
   //     statusBarColor: Colors.transparent, // transparent status bar
   //     statusBarIconBrightness: Brightness.dark // dark text for status bar
   //     ));
-  runApp(ProviderScope(child: MyApp()));
+  runApp(provider.MultiProvider(
+    providers: [
+      provider.ChangeNotifierProvider(
+        create: (context) => ProviderFiles(),
+      )
+    ],
+    child: ProviderScope(child: MyApp()),
+  ));
 }
 
 class MyApp extends HookWidget {
@@ -28,7 +37,7 @@ class MyApp extends HookWidget {
       ));
     }, const []);
     return MaterialApp(
-      title: 'Vapual.',
+      title: 'Blog Squid',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: "Circular",

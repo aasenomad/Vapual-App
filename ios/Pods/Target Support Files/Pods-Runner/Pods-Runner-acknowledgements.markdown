@@ -1624,7 +1624,7 @@ redistribute it freely, subject to the following restrictions:
  */
 
 
-## path_provider
+## path_provider_ios
 
 Copyright 2013 The Flutter Authors. All rights reserved.
 

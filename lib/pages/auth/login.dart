@@ -313,38 +313,38 @@ class Login extends HookWidget {
                       ),
                     ),
                   ),
-                  SizedBox(width: 10),
-                  InkWell(
-                    onTap: loading.value ? () => {} : signInWithGoogle,
-                    child: Opacity(
-                      opacity: loading.value ? 0.38 : 1,
-                      child: Container(
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                        decoration: BoxDecoration(
-                            border: Border.all(
-                              color: color.state == 'dark'
-                                  ? darkModeText
-                                  : Color(0xFF404040),
-                            ),
-                            borderRadius: BorderRadius.circular(4)),
-                        child: Row(
-                          children: [
-                            Image.asset(iconsPath + 'google.png', height: 22),
-                            SizedBox(width: 5),
-                            Text(
-                              "Google",
-                              style: TextStyle(
-                                  color: color.state == 'dark'
-                                      ? darkModeText
-                                      : Color(0xFF404040),
-                                  fontSize: 14),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
+                 // SizedBox(width: 10),
+                  // InkWell(
+                  //   onTap: loading.value ? () => {} : signInWithGoogle,
+                  //   child: Opacity(
+                  //     opacity: loading.value ? 0.38 : 1,
+                  //     child: Container(
+                  //       padding:
+                  //           EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                  //       decoration: BoxDecoration(
+                  //           border: Border.all(
+                  //             color: color.state == 'dark'
+                  //                 ? darkModeText
+                  //                 : Color(0xFF404040),
+                  //           ),
+                  //           borderRadius: BorderRadius.circular(4)),
+                  //       child: Row(
+                  //         children: [
+                  //           Image.asset(iconsPath + 'google.png', height: 22),
+                  //           SizedBox(width: 5),
+                  //           Text(
+                  //             "Google",
+                  //             style: TextStyle(
+                  //                 color: color.state == 'dark'
+                  //                     ? darkModeText
+                  //                     : Color(0xFF404040),
+                  //                 fontSize: 14),
+                  //           ),
+                  //         ],
+                  //       ),
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               )
             ]),

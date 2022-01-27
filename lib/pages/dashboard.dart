@@ -1,3 +1,4 @@
+import 'package:vapual/components/provider_files.dart';
 import 'package:vapual/config/app.dart';
 import 'package:vapual/pages/categories/subCategories.dart';
 import 'package:vapual/pages/tabs/account.dart';
@@ -6,7 +7,9 @@ import 'package:vapual/pages/tabs/categories.dart';
 import 'package:vapual/pages/tabs/search.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
+import 'package:provider/provider.dart' as provider;
 
 import 'tabs/home.dart';
 import 'tabs/partials/animated_bottom_bar.dart';
@@ -79,13 +82,19 @@ class _DashboardState extends State<Dashboard>
 
   @override
   Widget build(BuildContext context) {
+    provider.Provider.of<ProviderFiles>(context).themeGetter();
+
     return Scaffold(
       key: _scaffoldKey,
       body: PersistentTabView(
         context,
         controller: controller,
         confineInSafeArea: true,
-        backgroundColor: Colors.white,
+        backgroundColor:
+            provider.Provider.of<ProviderFiles>(context, listen: true)
+                    .themeSwitch
+                ? Colors.white
+                : Colors.black,
         handleAndroidBackButtonPress: true,
         resizeToAvoidBottomInset: true,
         stateManagement: true,

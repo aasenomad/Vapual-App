@@ -186,7 +186,7 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
-		<key>path_provider.xcscheme</key>
+		<key>path_provider_ios.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

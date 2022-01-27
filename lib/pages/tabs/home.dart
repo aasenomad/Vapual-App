@@ -645,7 +645,8 @@ class Home extends HookWidget {
                                                                                 posts.state.reversed.toList();
                                                                             Navigator.of(context).pop();
                                                                           },
-                                                                          child: Container(
+                                                                          child:
+                                                                              Container(
                                                                             width:
                                                                                 double.infinity,
                                                                             padding:

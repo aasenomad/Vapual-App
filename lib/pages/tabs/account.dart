@@ -1,5 +1,6 @@
 import 'dart:convert';
-
+import 'package:vapual/components/provider_files.dart';
+import 'package:provider/provider.dart' as provider;
 import 'package:vapual/components/empty_error.dart';
 import 'package:vapual/components/network_error.dart';
 import 'package:vapual/config/app.dart';
@@ -439,12 +440,12 @@ class ColorModal extends HookWidget {
     final color = useProvider(colorProvider);
 
     changeColor(String cl) async {
+      provider.Provider.of<ProviderFiles>(context, listen: false).switching(cl);
       color.state = cl;
       var box = await Hive.openBox('appBox');
       box.put('color', cl);
       Navigator.pop(context);
       (context as Element).markNeedsBuild();
-      print('check1' + color.state);
     }
 
     return SingleChildScrollView(

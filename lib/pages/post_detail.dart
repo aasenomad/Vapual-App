@@ -682,7 +682,7 @@ class CommentsWidget extends HookWidget {
         Fluttertoast.showToast(
             msg: message.text.length == 0
                 ? "Message field is required"
-                : "Name field is required",
+                : "Please signin to comment",
             toastLength: Toast.LENGTH_SHORT,
             gravity: ToastGravity.CENTER,
             timeInSecForIosWeb: 1,
@@ -701,9 +701,9 @@ class CommentsWidget extends HookWidget {
               textColor: Colors.white,
               fontSize: 16.0);
         } else {
-          var box = await Hive.openBox('appBox');
-          box.put('account', json.encode(newAccount));
-          account.state = newAccount;
+          // var box = await Hive.openBox('appBox');
+          // box.put('account', json.encode(newAccount));
+          // account.state = newAccount;
           var formData = {
             "post": postid.toString(),
             "author_name": name.text,
@@ -992,33 +992,33 @@ class WriteCommentWidget extends HookWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         InkWell(
-                          onTap: () => {
-                            qt.value = qt.value == 2 ? 0 : 2,
-                            focusedName.value = false,
-                            focusedEmail.value = false
-                          },
+                          // onTap: () => {
+                          //   qt.value = qt.value == 2 ? 0 : 2,
+                          //   focusedName.value = false,
+                          //   focusedEmail.value = false
+                          // },
                           child: Container(
-                            padding: EdgeInsets.symmetric(
-                                horizontal: 18, vertical: 8),
-                            decoration: BoxDecoration(
-                              color: Color(0xFFE9E9E9),
-                              borderRadius: BorderRadius.circular(16.5),
-                            ),
-                            child: Row(
-                              children: [
-                                Text("More",
-                                    style: TextStyle(color: Color(0xFF282828))),
-                                SizedBox(width: 5),
-                                RotatedBox(
-                                  quarterTurns: qt.value,
-                                  child: SvgPicture.asset(
-                                    iconsPath + "cheveron-down.svg",
-                                    color: Color(0xFF282828),
-                                    width: 16,
-                                  ),
-                                )
-                              ],
-                            ),
+                            // padding: EdgeInsets.symmetric(
+                            //     horizontal: 18, vertical: 8),
+                            // decoration: BoxDecoration(
+                            //   color: Color(0xFFE9E9E9),
+                            //   borderRadius: BorderRadius.circular(16.5),
+                            // ),
+                            // child: Row(
+                            //   children: [
+                            //     Text("More",
+                            //         style: TextStyle(color: Color(0xFF282828))),
+                            //     SizedBox(width: 5),
+                            //     RotatedBox(
+                            //       quarterTurns: qt.value,
+                            //       child: SvgPicture.asset(
+                            //         iconsPath + "cheveron-down.svg",
+                            //         color: Color(0xFF282828),
+                            //         width: 16,
+                            //       ),
+                            //     )
+                            //   ],
+                            // ),
                           ),
                         ),
                       ],
@@ -1027,87 +1027,87 @@ class WriteCommentWidget extends HookWidget {
                     qt.value == 2
                         ? SizedBox()
                         : Column(
-                            children: [
-                              Opacity(
-                                opacity: account.state['logged_in'] != null
-                                    ? 0.5
-                                    : 1,
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                      color: color.state == 'dark'
-                                          ? Color(0xFFFBFBFB).withOpacity(0.4)
-                                          : Color(0xFFFBFBFB),
-                                      borderRadius: BorderRadius.circular(5),
-                                      border: Border.all(
-                                          color: focusedName.value
-                                              ? colorPrimary
-                                              : Color(0xFFD3D3D3))),
-                                  margin: EdgeInsets.only(bottom: 2),
-                                  padding: EdgeInsets.only(left: 10, bottom: 2),
-                                  child: TextFormField(
-                                      focusNode: _focusNodeName,
-                                      readOnly:
-                                          account.state['logged_in'] != null
-                                              ? true
-                                              : false,
-                                      style: TextStyle(
-                                          fontSize: 16,
-                                          color: Colors.black,
-                                          fontWeight: FontWeight.w100),
-                                      decoration: InputDecoration(
-                                          hintStyle: TextStyle(
-                                              color: Color(0xFF9A9FAC),
-                                              fontSize: 16,
-                                              fontWeight: FontWeight.w100),
-                                          border: InputBorder.none,
-                                          hintText: "Name"),
-                                      onChanged: (text) {
-                                        //loadData();
-                                      },
-                                      controller: nameInput),
-                                ),
-                              ),
-                              SizedBox(height: 12),
-                              Opacity(
-                                opacity: account.state['logged_in'] != null
-                                    ? 0.5
-                                    : 1,
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                      color: color.state == 'dark'
-                                          ? Color(0xFFFBFBFB).withOpacity(0.4)
-                                          : Color(0xFFFBFBFB),
-                                      borderRadius: BorderRadius.circular(5),
-                                      border: Border.all(
-                                          color: focusedEmail.value
-                                              ? colorPrimary
-                                              : Color(0xFFD3D3D3))),
-                                  margin: EdgeInsets.only(bottom: 2),
-                                  padding: EdgeInsets.only(left: 10, bottom: 2),
-                                  child: TextFormField(
-                                      focusNode: _focusNodeEmail,
-                                      readOnly:
-                                          account.state['logged_in'] != null
-                                              ? true
-                                              : false,
-                                      style: TextStyle(
-                                          fontSize: 16,
-                                          color: Colors.black,
-                                          fontWeight: FontWeight.w100),
-                                      decoration: InputDecoration(
-                                          hintStyle: TextStyle(
-                                              color: Color(0xFF9A9FAC),
-                                              fontSize: 16,
-                                              fontWeight: FontWeight.w100),
-                                          border: InputBorder.none,
-                                          hintText: "Email Address"),
-                                      onChanged: (text) {
-                                        //loadData();
-                                      },
-                                      controller: emailInput),
-                                ),
-                              ),
-                            ],
+                            // children: [
+                            //   Opacity(
+                            //     opacity: account.state['logged_in'] != null
+                            //         ? 0.5
+                            //         : 1,
+                            //     child: Container(
+                            //       decoration: BoxDecoration(
+                            //           color: color.state == 'dark'
+                            //               ? Color(0xFFFBFBFB).withOpacity(0.4)
+                            //               : Color(0xFFFBFBFB),
+                            //           borderRadius: BorderRadius.circular(5),
+                            //           border: Border.all(
+                            //               color: focusedName.value
+                            //                   ? colorPrimary
+                            //                   : Color(0xFFD3D3D3))),
+                            //       margin: EdgeInsets.only(bottom: 2),
+                            //       padding: EdgeInsets.only(left: 10, bottom: 2),
+                            //       child: TextFormField(
+                            //           focusNode: _focusNodeName,
+                            //           readOnly:
+                            //               account.state['logged_in'] != null
+                            //                   ? true
+                            //                   : false,
+                            //           style: TextStyle(
+                            //               fontSize: 16,
+                            //               color: Colors.black,
+                            //               fontWeight: FontWeight.w100),
+                            //           decoration: InputDecoration(
+                            //               hintStyle: TextStyle(
+                            //                   color: Color(0xFF9A9FAC),
+                            //                   fontSize: 16,
+                            //                   fontWeight: FontWeight.w100),
+                            //               border: InputBorder.none,
+                            //               hintText: "Name"),
+                            //           onChanged: (text) {
+                            //             //loadData();
+                            //           },
+                            //           controller: nameInput),
+                            //     ),
+                            //   ),
+                            //   SizedBox(height: 12),
+                            //   Opacity(
+                            //     opacity: account.state['logged_in'] != null
+                            //         ? 0.5
+                            //         : 1,
+                            //     child: Container(
+                            //       decoration: BoxDecoration(
+                            //           color: color.state == 'dark'
+                            //               ? Color(0xFFFBFBFB).withOpacity(0.4)
+                            //               : Color(0xFFFBFBFB),
+                            //           borderRadius: BorderRadius.circular(5),
+                            //           border: Border.all(
+                            //               color: focusedEmail.value
+                            //                   ? colorPrimary
+                            //                   : Color(0xFFD3D3D3))),
+                            //       margin: EdgeInsets.only(bottom: 2),
+                            //       padding: EdgeInsets.only(left: 10, bottom: 2),
+                            //       child: TextFormField(
+                            //           focusNode: _focusNodeEmail,
+                            //           readOnly:
+                            //               account.state['logged_in'] != null
+                            //                   ? true
+                            //                   : false,
+                            //           style: TextStyle(
+                            //               fontSize: 16,
+                            //               color: Colors.black,
+                            //               fontWeight: FontWeight.w100),
+                            //           decoration: InputDecoration(
+                            //               hintStyle: TextStyle(
+                            //                   color: Color(0xFF9A9FAC),
+                            //                   fontSize: 16,
+                            //                   fontWeight: FontWeight.w100),
+                            //               border: InputBorder.none,
+                            //               hintText: "Email Address"),
+                            //           onChanged: (text) {
+                            //             //loadData();
+                            //           },
+                            //           controller: emailInput),
+                            //     ),
+                            //   ),
+                            // ],
                           ),
                     SizedBox(height: 12),
                     InkWell(

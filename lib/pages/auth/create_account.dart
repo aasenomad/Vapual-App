@@ -2,6 +2,8 @@ import 'dart:convert';
 import 'package:vapual/components/form/botton_widget.dart';
 import 'package:vapual/components/form/text_input_widget.dart';
 import 'package:vapual/config/app.dart';
+import 'package:vapual/pages/tabs/account.dart';
+import 'package:vapual/pages/tabs/home.dart';
 import 'package:vapual/utils/Providers.dart';
 import 'package:vapual/utils/network.dart';
 import 'package:vapual/utils/app_actions.dart';
@@ -46,7 +48,7 @@ class CreateAccount extends HookWidget {
           box.put('token', tk);
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(builder: (context) => Dashboard()),
+            MaterialPageRoute(builder: (context) => Account()),
           );
           loading.value = false;
         } else {

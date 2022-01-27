@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.1/android/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/8770e30066ade077d7e8c669d9e2b528/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.1/android/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/8770e30066ade077d7e8c669d9e2b528/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.1/android/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/8770e30066ade077d7e8c669d9e2b528/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.1/android/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/8770e30066ade077d7e8c669d9e2b528/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
