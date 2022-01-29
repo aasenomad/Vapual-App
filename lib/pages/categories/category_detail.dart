@@ -192,7 +192,7 @@ class CategoryDetail extends HookWidget {
               child: Center(
                 child: EmptyError(
                     loadData: loadData,
-                    message: "No post found,"),
+                    message: "No post found. Be the first to write it or"),
               ),
             ),
           ],
