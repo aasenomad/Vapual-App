@@ -6,6 +6,7 @@ import 'package:vapual/components/network_error.dart';
 import 'package:vapual/config/app.dart';
 import 'package:vapual/pages/auth/login.dart';
 import 'package:vapual/pages/show_page.dart';
+import 'package:vapual/pages/webview.dart';
 import 'package:vapual/utils/app_actions.dart';
 import 'package:vapual/utils/network.dart';
 import 'package:vapual/utils/Providers.dart';
@@ -237,7 +238,7 @@ class Account extends HookWidget {
                                         color: color.state == 'dark'
                                             ? eachPostBgDark
                                             : Color(0xFFF3F3F3),
-                                        borderRadius: BorderRadius.circular(4)),
+                                        borderRadius: BorderRadius.circular(8)),
                                     child: Column(
                                         children: pages.state
                                             .asMap()
@@ -269,7 +270,25 @@ class Account extends HookWidget {
                 ),
               ),
             ),
+            Container(
+              padding: EdgeInsets.only(left: 20, top: 10, bottom: 10),
+              margin: EdgeInsets.fromLTRB(0, 0, 0, 20),
+              decoration: BoxDecoration(
+                  color: color.state == 'dark'
+                      ? eachPostBgDark
+                      : Color(0xFFF3F3F3),
+                  borderRadius: BorderRadius.circular(8)),
+              child: UserSetting(
+                  bordered: pages.state.length <= 1 ? false : true,
+                  action: () => Navigator.push(context,
+                          MaterialPageRoute(builder: (context) {
+                        return WebViewPage();
+                     }))),
+                     
+            )
+        
           ],
+          
         ),
       ),
     );
@@ -582,5 +601,57 @@ class EachMenu extends HookWidget {
         ),
       ),
     );
+  }
+}
+
+class UserSetting extends HookWidget {
+  final bool bordered;
+  final Function action;
+  const UserSetting({
+    Key? key,
+    required this.bordered,
+    required this.action,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final color = useProvider(colorProvider);
+    return InkWell(
+      onTap: () => action(),
+      child: Container(
+        padding: EdgeInsets.only(top: 20, bottom: 20, right: 20),
+        decoration: BoxDecoration(
+            border: Border(
+                bottom: BorderSide(
+                    width: 1,
+                    color: this.bordered
+                        ? color.state == 'dark'
+                            ? primaryDark.withOpacity(0.1)
+                            : Color(0xFFEDEDED).withOpacity(0.7)
+                        : Colors.transparent))),
+        child: Row(
+          children: [
+            Expanded(
+                child: Text(
+              "Publish Post & User Account",
+              style: TextStyle(
+                  fontSize: 16,
+                  color: color.state == 'dark'
+                      ? Color(0xFFA7A9AC)
+                      : Color(0xFF282828)),
+            )),
+            SvgPicture.asset(
+              iconsPath + "cheveron-right.svg",
+              color:
+                  color.state == 'dark' ? Color(0xFFA7A9AC) : Color(0xFF282828),
+              width: 20,
+            )
+          ],
+        ),
+
+      ),
+      
+    );
+    
   }
 }

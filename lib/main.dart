@@ -50,6 +50,7 @@ class MyApp extends HookWidget {
 
       /// navigatorKey: globals.appNavigator,
       home: Prepare(),
+      
     );
   }
 }

@@ -1,11 +1,13 @@
 import 'dart:convert';
 
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:vapual/components/form/botton_widget.dart';
 import 'package:vapual/components/form/text_input_widget.dart';
 import 'package:vapual/components/logo.dart';
 import 'package:vapual/config/app.dart';
 import 'package:vapual/pages/auth/create_account.dart';
 import 'package:vapual/pages/tabs/account.dart';
+import 'package:vapual/pages/webview2.dart';
 import 'package:vapual/utils/Providers.dart';
 import 'package:vapual/utils/network.dart';
 import 'package:vapual/utils/app_actions.dart';
@@ -216,13 +218,38 @@ class Login extends HookWidget {
           child: SingleChildScrollView(
             child:
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              SizedBox(height: 50),
+
               Row(
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  LogoWidget(20, color.state == 'dark' ? "dark" : "light"),
+       
+                  Row(
+                    children: [
+                      InkWell(
+      onTap: () => Navigator.pop(context),
+                  child: Container(
+                    margin: EdgeInsets.only(left: 10),
+                    child: SvgPicture.asset(
+                      iconsPath + "arrow-left.svg",
+                      color: Color(0xFF282828),
+                      width: 20,
+                    ),
+                  ),
+                      )
+                    ],
+                  ),
+           
                 ],
               ),
+                            SizedBox(height: 50),
+              Row(
+                               mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                        LogoWidget(20, color.state == 'dark' ? "dark" : "light"),
+                ],
+
+              ),
+
               SizedBox(height: 50),
               TextInputWidget(
                 controller: email,
@@ -273,9 +300,21 @@ class Login extends HookWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "You can also login with",
+                    "Forgot password?.",
                     style: TextStyle(color: Color(0xFF595959)),
                   ),
+                  new InkWell(
+                    onTap: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) {
+                        return WebViewPage2();
+                      }));
+                    },
+                    child: new Padding(
+                      padding: new EdgeInsets.all(10.0),
+                      child: new Text("Click here"),
+                    ),
+                  )
                 ],
               ),
               SizedBox(height: 20),
@@ -286,34 +325,9 @@ class Login extends HookWidget {
                     onTap: loading.value ? () => {} : signInWithFacebook,
                     child: Opacity(
                       opacity: loading.value ? 0.38 : 1,
-                      child: Container(
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                        decoration: BoxDecoration(
-                            border: Border.all(
-                              color: color.state == 'dark'
-                                  ? darkModeText
-                                  : Color(0xFF404040),
-                            ),
-                            borderRadius: BorderRadius.circular(4)),
-                        child: Row(
-                          children: [
-                            Image.asset(iconsPath + 'facebook.png', height: 22),
-                            SizedBox(width: 5),
-                            Text(
-                              "Facebook",
-                              style: TextStyle(
-                                  color: color.state == 'dark'
-                                      ? darkModeText
-                                      : Color(0xFF404040),
-                                  fontSize: 14),
-                            ),
-                          ],
-                        ),
-                      ),
                     ),
                   ),
-                 // SizedBox(width: 10),
+                  // SizedBox(width: 10),
                   // InkWell(
                   //   onTap: loading.value ? () => {} : signInWithGoogle,
                   //   child: Opacity(

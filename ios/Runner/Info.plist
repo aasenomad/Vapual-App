@@ -15,17 +15,34 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>$(FLUTTER_BUILD_NAME)</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb763521748371971</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAppID</key>
+	<string>763521748371971</string>
+	<key>FacebookClientToken</key>
+	<string>f24e63e32413a59f3bd7b2900bbb0589</string>
+	<key>FacebookDisplayName</key>
+	<string>Vapual</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-6037994837496296~6348345459</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
-		<string>https</string>
-		<string>http</string>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
@@ -60,28 +77,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-
-	<key>CFBundleURLTypes</key>
-<array>
-  <dict>
-    <key>CFBundleURLSchemes</key>
-    <array>
-      <string>fb{your-app-id}</string>
-    </array>
-  </dict>
-</array>
-<key>FacebookAppID</key>
-<string>763521748371971</string>
-<key>FacebookClientToken</key>
-<string>f24e63e32413a59f3bd7b2900bbb0589</string>
-<key>FacebookDisplayName</key>
-<string>Vapual</string>
-<key>LSApplicationQueriesSchemes</key>
-<array>
-  <string>fbapi</string>
-  <string>fb-messenger-share-api</string>
-  <string>fbauth2</string>
-  <string>fbshareextension</string>
-</array>
 </dict>
 </plist>
