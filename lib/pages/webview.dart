@@ -31,7 +31,7 @@ class WebViewPage extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Post & User Accounts"),
+                      Text("Publish Post & User Accounts"),
                     ],
                   ),
                 ),

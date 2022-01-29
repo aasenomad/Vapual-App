@@ -312,7 +312,7 @@ class Login extends HookWidget {
                     },
                     child: new Padding(
                       padding: new EdgeInsets.all(10.0),
-                      child: new Text("Click here"),
+                      child: new Text("Click here", style: TextStyle(color: Color(0xFF595959)),),
                     ),
                   )
                 ],
