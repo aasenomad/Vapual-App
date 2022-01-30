@@ -295,7 +295,7 @@ class Login extends HookWidget {
                   )
                 ],
               ),
-              SizedBox(height: 100),
+              SizedBox(height: 200),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -312,7 +312,7 @@ class Login extends HookWidget {
                     },
                     child: new Padding(
                       padding: new EdgeInsets.all(10.0),
-                      child: new Text("Click here", style: TextStyle(color: Color(0xFF595959)),),
+                      child: new Text("Click here", style: TextStyle( color: colorPrimary, fontWeight: FontWeight.w600),),
                     ),
                   )
                 ],

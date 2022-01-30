@@ -10,6 +10,7 @@ class WebViewPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        color: Colors.white,
         padding: EdgeInsets.only(top: 50),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -31,7 +32,7 @@ class WebViewPage extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Publish Post & User Accounts"),
+                      Text("Publish Post & User Dashboard"),
                     ],
                   ),
                 ),

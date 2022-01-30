@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:vapual/components/form/botton_widget.dart';
 import 'package:vapual/components/form/text_input_widget.dart';
 import 'package:vapual/config/app.dart';
@@ -144,6 +145,18 @@ class CreateAccount extends HookWidget {
           padding: EdgeInsets.only(top: 60, left: 25, right: 25),
           child:
               Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                                      InkWell(
+      onTap: () => Navigator.pop(context),
+                  child: Container(
+                    margin: EdgeInsets.only(left: 0),
+                    padding: EdgeInsets.fromLTRB(0, 0, 0, 10),
+                    child: SvgPicture.asset(
+                      iconsPath + "arrow-left.svg",
+                      color: Color(0xFF282828),
+                      width: 20,
+                    ),
+                  ),
+                      ),
             Text(
               "Create Account",
               style: TextStyle(
@@ -159,7 +172,7 @@ class CreateAccount extends HookWidget {
                   color:
                       color.state == 'dark' ? darkModeText : Color(0xFF595959)),
             ),
-            SizedBox(height: 30),
+            SizedBox(height: 0),
             Expanded(
               child: SingleChildScrollView(
                 child: Column(

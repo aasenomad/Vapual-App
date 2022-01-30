@@ -633,7 +633,7 @@ class UserSetting extends HookWidget {
           children: [
             Expanded(
                 child: Text(
-              "Publish Post & User Account",
+              "Publish Post & User Dashboard",
               style: TextStyle(
                   fontSize: 16,
                   color: color.state == 'dark'
@@ -645,6 +645,7 @@ class UserSetting extends HookWidget {
               color:
                   color.state == 'dark' ? Color(0xFFA7A9AC) : Color(0xFF282828),
               width: 20,
+            
             )
           ],
         ),
