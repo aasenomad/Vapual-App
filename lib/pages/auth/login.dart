@@ -295,7 +295,7 @@ class Login extends HookWidget {
                   )
                 ],
               ),
-              SizedBox(height: 200),
+              SizedBox(height:20),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
