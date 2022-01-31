@@ -43,7 +43,7 @@ class _UserDashboardState extends State<UserDashboard> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text("Publish Post & User Dashboard"),
+                      Text("Post & Dashboard"),
                     ],
                   ),
                 ),
