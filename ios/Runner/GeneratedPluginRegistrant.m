@@ -54,6 +54,12 @@
 @import share;
 #endif
 
+#if __has_include(<shared_preferences_ios/FLTSharedPreferencesPlugin.h>)
+#import <shared_preferences_ios/FLTSharedPreferencesPlugin.h>
+#else
+@import shared_preferences_ios;
+#endif
+
 #if __has_include(<url_launcher/FLTURLLauncherPlugin.h>)
 #import <url_launcher/FLTURLLauncherPlugin.h>
 #else
@@ -70,6 +76,12 @@
 #import <wakelock/WakelockPlugin.h>
 #else
 @import wakelock;
+#endif
+
+#if __has_include(<webview_cookie_manager/WebviewCookieManagerPlugin.h>)
+#import <webview_cookie_manager/WebviewCookieManagerPlugin.h>
+#else
+@import webview_cookie_manager;
 #endif
 
 #if __has_include(<webview_flutter/FLTWebViewFlutterPlugin.h>)
@@ -89,9 +101,11 @@
   [OneSignalPlugin registerWithRegistrar:[registry registrarForPlugin:@"OneSignalPlugin"]];
   [FLTPathProviderPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTPathProviderPlugin"]];
   [FLTSharePlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTSharePlugin"]];
+  [FLTSharedPreferencesPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTSharedPreferencesPlugin"]];
   [FLTURLLauncherPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTURLLauncherPlugin"]];
   [FLTVideoPlayerPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTVideoPlayerPlugin"]];
   [WakelockPlugin registerWithRegistrar:[registry registrarForPlugin:@"WakelockPlugin"]];
+  [WebviewCookieManagerPlugin registerWithRegistrar:[registry registrarForPlugin:@"WebviewCookieManagerPlugin"]];
   [FLTWebViewFlutterPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTWebViewFlutterPlugin"]];
 }
 
