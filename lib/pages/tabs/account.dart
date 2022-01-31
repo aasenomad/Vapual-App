@@ -6,7 +6,7 @@ import 'package:vapual/components/network_error.dart';
 import 'package:vapual/config/app.dart';
 import 'package:vapual/pages/auth/login.dart';
 import 'package:vapual/pages/show_page.dart';
-import 'package:vapual/pages/webview.dart';
+import 'package:vapual/pages/user_dashboard.dart';
 import 'package:vapual/utils/app_actions.dart';
 import 'package:vapual/utils/network.dart';
 import 'package:vapual/utils/Providers.dart';
@@ -282,7 +282,7 @@ class Account extends HookWidget {
                   bordered: pages.state.length <= 1 ? false : true,
                   action: () => Navigator.push(context,
                           MaterialPageRoute(builder: (context) {
-                        return WebViewPage();
+                        return UserDashboard();
                      }))),
                      
             )

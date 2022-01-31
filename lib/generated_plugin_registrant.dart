@@ -9,6 +9,7 @@ import 'package:flutter_facebook_auth_web/flutter_facebook_auth_web.dart';
 import 'package:flutter_tts/flutter_tts_web.dart';
 import 'package:fluttertoast/fluttertoast_web.dart';
 import 'package:google_sign_in_web/google_sign_in_web.dart';
+import 'package:shared_preferences_web/shared_preferences_web.dart';
 import 'package:url_launcher_web/url_launcher_web.dart';
 import 'package:video_player_web/video_player_web.dart';
 import 'package:wakelock_web/wakelock_web.dart';
@@ -21,6 +22,7 @@ void registerPlugins(Registrar registrar) {
   FlutterTtsPlugin.registerWith(registrar);
   FluttertoastWebPlugin.registerWith(registrar);
   GoogleSignInPlugin.registerWith(registrar);
+  SharedPreferencesPlugin.registerWith(registrar);
   UrlLauncherPlugin.registerWith(registrar);
   VideoPlayerPlugin.registerWith(registrar);
   WakelockWeb.registerWith(registrar);
