@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xfUqhpcceReFLweEKvjyrgwG/ro=
+		3+D5neh4iCnCtmtBxN1GpiqBFKs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -25,10 +25,6 @@
 	<dict>
 		<key>Headers/FLTSharePlugin.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jQM8ZtVU7fHqdGtMrFWMOO0JPTg=
-			</data>
 			<key>hash2</key>
 			<data>
 			bL5KY2E46BAx8Q3ODtaiqgewsEMCZZHS0p/Y9zCZ6BY=
@@ -36,10 +32,6 @@
 		</dict>
 		<key>Headers/share-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KGhihKYftrTsuHTzs8zgEnQIxqs=
-			</data>
 			<key>hash2</key>
 			<data>
 			UhZUa5Dc7SH2/TsjtQmkCsRHldr4ThiWodQYY7Akrak=
@@ -47,10 +39,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LfddLxCd37qlAGQeaGdYONla/2c=
-			</data>
 			<key>hash2</key>
 			<data>
 			NilouXDkK2XsvPw2Pz7+WS9NdlIVNig31R8NLXSiZck=

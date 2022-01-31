@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/d+UJOwEoDLtKtBIFS8kyYenVrk=
+		iQ6WeZxZXHvHC2kCl40m5x3JwDU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -29,10 +29,6 @@
 	<dict>
 		<key>Headers/FLTVideoPlayerPlugin.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VqL605bnPcpuDmhgvcAwW9Gwrd8=
-			</data>
 			<key>hash2</key>
 			<data>
 			LOEw7ICPEqKeyyPASTtQSGhz4hL0k9cheVD5hpbGkeE=
@@ -40,10 +36,6 @@
 		</dict>
 		<key>Headers/messages.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YS1nNA68Y8og1NDJmT2tqO+Dypw=
-			</data>
 			<key>hash2</key>
 			<data>
 			RCmGCJA4A5VY/b2RysLK69WbveXAsOkMV4ZnzaS2Zx4=
@@ -51,10 +43,6 @@
 		</dict>
 		<key>Headers/video_player-umbrella.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			g4Ub9gs5j/kQs51JKcBo4UetFXk=
-			</data>
 			<key>hash2</key>
 			<data>
 			kI3+Bci5HEMNqVYmFGg6aeqpv/qid9I91MoxIRhA8aU=
@@ -62,10 +50,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fTpXo6wOzivCf4UkXmYgt7LgyfQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ei8melp5DmWrb6gXg2kidQlaITKB+aUUVijEZGTa74w=

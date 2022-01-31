@@ -56,6 +56,11 @@ public final class GeneratedPluginRegistrant {
       Log.e(TAG, "Error registering plugin share, io.flutter.plugins.share.SharePlugin", e);
     }
     try {
+      flutterEngine.getPlugins().add(new io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin());
+    } catch(Exception e) {
+      Log.e(TAG, "Error registering plugin shared_preferences_android, io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin", e);
+    }
+    try {
       flutterEngine.getPlugins().add(new io.flutter.plugins.urllauncher.UrlLauncherPlugin());
     } catch(Exception e) {
       Log.e(TAG, "Error registering plugin url_launcher, io.flutter.plugins.urllauncher.UrlLauncherPlugin", e);
@@ -69,6 +74,11 @@ public final class GeneratedPluginRegistrant {
       flutterEngine.getPlugins().add(new creativemaybeno.wakelock.WakelockPlugin());
     } catch(Exception e) {
       Log.e(TAG, "Error registering plugin wakelock, creativemaybeno.wakelock.WakelockPlugin", e);
+    }
+    try {
+      flutterEngine.getPlugins().add(new io.flutter.plugins.webview_cookie_manager.WebviewCookieManagerPlugin());
+    } catch(Exception e) {
+      Log.e(TAG, "Error registering plugin webview_cookie_manager, io.flutter.plugins.webview_cookie_manager.WebviewCookieManagerPlugin", e);
     }
     try {
       flutterEngine.getPlugins().add(new io.flutter.plugins.webviewflutter.WebViewFlutterPlugin());
