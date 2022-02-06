@@ -721,7 +721,7 @@
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/anim_onesignal_fade_in.xml.flat",
-        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/res/anim/onesignal_fade_in.xml"
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/res/anim/onesignal_fade_in.xml"
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable_abc_btn_default_mtrl_shape.xml.flat",
@@ -937,7 +937,7 @@
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable-xxxhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/res/drawable-xxxhdpi-v4/ic_os_notification_fallback_white_24dp.png"
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/res/drawable-xxxhdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable_abc_item_background_holo_light.xml.flat",
@@ -1273,7 +1273,7 @@
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/anim_onesignal_fade_out.xml.flat",
-        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/res/anim/onesignal_fade_out.xml"
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/res/anim/onesignal_fade_out.xml"
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher.png.flat",
@@ -1285,7 +1285,7 @@
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/layout_onesignal_bgimage_notif_layout.xml.flat",
-        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/res/layout/onesignal_bgimage_notif_layout.xml"
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/res/layout/onesignal_bgimage_notif_layout.xml"
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
@@ -1341,7 +1341,7 @@
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable-xhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/res/drawable-xhdpi-v4/ic_os_notification_fallback_white_24dp.png"
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/res/drawable-xhdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/anim_abc_grow_fade_in_from_bottom.xml.flat",
@@ -1641,7 +1641,7 @@
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable-xxhdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/res/drawable-xxhdpi-v4/ic_os_notification_fallback_white_24dp.png"
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/res/drawable-xxhdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -1737,7 +1737,7 @@
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/raw_consumer_onesignal_keep.xml.flat",
-        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/res/raw/consumer_onesignal_keep.xml"
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/res/raw/consumer_onesignal_keep.xml"
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -1793,7 +1793,7 @@
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable-mdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/res/drawable-mdpi-v4/ic_os_notification_fallback_white_24dp.png"
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/res/drawable-mdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/layout_toast_custom.xml.flat",
@@ -2065,7 +2065,7 @@
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable-hdpi-v4_ic_os_notification_fallback_white_24dp.png.flat",
-        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/res/drawable-hdpi-v4/ic_os_notification_fallback_white_24dp.png"
+        "source": "/Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/res/drawable-hdpi-v4/ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "/Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/res/merged/release/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",

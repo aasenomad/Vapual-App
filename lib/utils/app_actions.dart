@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:flutter_styled_toast/flutter_styled_toast.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
 class AppAction {
@@ -13,10 +12,7 @@ class AppAction {
     print(token);
     if (account.state['login_type'] == 'social') {
       try {
-        if (account.state['login_mode'] == 'google') {
-          GoogleSignIn _googleSignIn = GoogleSignIn();
-          await _googleSignIn.signOut();
-        } else if (account.state['login_mode'] == 'facebook') {
+    if (account.state['login_mode'] == 'facebook') {
           await FacebookAuth.instance.logOut();
         }
 

@@ -37,16 +37,15 @@ dependencies:
   flutter_facebook_auth: ^3.5.2
   carousel_slider: ^4.0.0
   modal_bottom_sheet: ^2.0.0
-  flutter_html: ^2.1.1
+  flutter_html: ^2.2.1
   flutter_spinkit: ^5.0.0
   jiffy: ^4.1.0
   share: ^2.0.4
-  google_sign_in: ^5.1.1
   wp_json_api: ^3.0.0
   fluttertoast: ^8.0.8
   flutter_tts: ^3.2.2
   email_validator: ^2.0.1
-  onesignal_flutter: ^3.2.7
+  onesignal_flutter: ^3.2.8
   google_mobile_ads: ^0.13.3
   url_launcher: ^6.0.9
   sticky_headers: ^0.2.0

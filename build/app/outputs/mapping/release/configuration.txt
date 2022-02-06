@@ -153,8 +153,6 @@
 -keep class com.onesignal.FCMBroadcastReceiver { <init>(); }
 -keep class com.onesignal.FCMIntentJobService { <init>(); }
 -keep class com.onesignal.FCMIntentService { <init>(); }
--keep class com.onesignal.FocusDelaySyncJobService { <init>(); }
--keep class com.onesignal.FocusDelaySyncService { <init>(); }
 -keep class com.onesignal.HmsMessageServiceOneSignal { <init>(); }
 -keep class com.onesignal.NotificationDismissReceiver { <init>(); }
 -keep class com.onesignal.NotificationOpenedActivityHMS { <init>(); }
@@ -215,7 +213,7 @@
 
 
 # End of content from /Users/aasenomad/Downloads/ChinBlog/build/app/intermediates/aapt_proguard_file/release/aapt_rules.txt
-# The proguard configuration file for the following section is /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/proguard.txt
+# The proguard configuration file for the following section is /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/proguard.txt
 -dontwarn com.onesignal.**
 
 # These 2 methods are called with reflection.
@@ -305,7 +303,7 @@
 -keep class com.onesignal.JobIntentService$* {*;}
 
 -keep class com.onesignal.OneSignalUnityProxy {*;}
-# End of content from /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/proguard.txt
+# End of content from /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/proguard.txt
 # The proguard configuration file for the following section is /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b39393b8489215d39f091371fb8099cf/jetified-facebook-login-11.3.0/proguard.txt
 # Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
 #
@@ -553,50 +551,6 @@
 }
 
 # End of content from /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/cd50116fc05142dec0a3e1434b319932/jetified-exoplayer-core-2.14.1/proguard.txt
-# The proguard configuration file for the following section is /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/a0fe53716287b8aacbd37047c33dd46b/jetified-exoplayer-extractor-2.14.1/proguard.txt
-# Proguard rules specific to the extractor module.
-
-# Methods accessed via reflection in DefaultExtractorsFactory
--dontnote com.google.android.exoplayer2.ext.flac.FlacExtractor
--keepclassmembers class com.google.android.exoplayer2.ext.flac.FlacExtractor {
-  <init>(int);
-}
--dontnote com.google.android.exoplayer2.ext.flac.FlacLibrary
--keepclassmembers class com.google.android.exoplayer2.ext.flac.FlacLibrary {
-  public static boolean isAvailable();
-}
-
-# Don't warn about checkerframework and Kotlin annotations
--dontwarn org.checkerframework.**
--dontwarn kotlin.annotations.jvm.**
--dontwarn javax.annotation.**
-
-# End of content from /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/a0fe53716287b8aacbd37047c33dd46b/jetified-exoplayer-extractor-2.14.1/proguard.txt
-# The proguard configuration file for the following section is /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/proguard.txt
-# Proguard rules specific to the common module.
-
-# Don't warn about checkerframework and Kotlin annotations
--dontwarn org.checkerframework.**
--dontwarn kotlin.annotations.jvm.**
--dontwarn javax.annotation.**
-
-# From https://github.com/google/guava/wiki/UsingProGuardWithGuava
--dontwarn java.lang.ClassValue
--dontwarn java.lang.SafeVarargs
--dontwarn javax.lang.model.element.Modifier
--dontwarn sun.misc.Unsafe
-
-# Don't warn about Guava's compile-only dependencies.
-# These lines are needed for ProGuard but not R8.
--dontwarn com.google.errorprone.annotations.**
--dontwarn com.google.j2objc.annotations.**
--dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-
-# Workaround for https://issuetracker.google.com/issues/112297269
-# This is needed for ProGuard but not R8.
--keepclassmembernames class com.google.common.base.Function { *; }
-
-# End of content from /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/proguard.txt
 # The proguard configuration file for the following section is /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/436836e9e9f04da54c1e1a5a6cf71b71/jetified-play-services-ads-20.1.0/proguard.txt
 -keep public class com.google.android.gms.ads.internal.ClientApi {
   <init>();
@@ -821,6 +775,50 @@
 # keep rules. Add a commonly used SearchView to the keep list until b/109831488 is resolved.
 -keep class androidx.appcompat.widget.SearchView { <init>(...); }
 # End of content from /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/41a63a4313bc07e56a19b3cfb4a612bf/appcompat-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/a0fe53716287b8aacbd37047c33dd46b/jetified-exoplayer-extractor-2.14.1/proguard.txt
+# Proguard rules specific to the extractor module.
+
+# Methods accessed via reflection in DefaultExtractorsFactory
+-dontnote com.google.android.exoplayer2.ext.flac.FlacExtractor
+-keepclassmembers class com.google.android.exoplayer2.ext.flac.FlacExtractor {
+  <init>(int);
+}
+-dontnote com.google.android.exoplayer2.ext.flac.FlacLibrary
+-keepclassmembers class com.google.android.exoplayer2.ext.flac.FlacLibrary {
+  public static boolean isAvailable();
+}
+
+# Don't warn about checkerframework and Kotlin annotations
+-dontwarn org.checkerframework.**
+-dontwarn kotlin.annotations.jvm.**
+-dontwarn javax.annotation.**
+
+# End of content from /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/a0fe53716287b8aacbd37047c33dd46b/jetified-exoplayer-extractor-2.14.1/proguard.txt
+# The proguard configuration file for the following section is /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/proguard.txt
+# Proguard rules specific to the common module.
+
+# Don't warn about checkerframework and Kotlin annotations
+-dontwarn org.checkerframework.**
+-dontwarn kotlin.annotations.jvm.**
+-dontwarn javax.annotation.**
+
+# From https://github.com/google/guava/wiki/UsingProGuardWithGuava
+-dontwarn java.lang.ClassValue
+-dontwarn java.lang.SafeVarargs
+-dontwarn javax.lang.model.element.Modifier
+-dontwarn sun.misc.Unsafe
+
+# Don't warn about Guava's compile-only dependencies.
+# These lines are needed for ProGuard but not R8.
+-dontwarn com.google.errorprone.annotations.**
+-dontwarn com.google.j2objc.annotations.**
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+
+# Workaround for https://issuetracker.google.com/issues/112297269
+# This is needed for ProGuard but not R8.
+-keepclassmembernames class com.google.common.base.Function { *; }
+
+# End of content from /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/proguard.txt
 # The proguard configuration file for the following section is /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/ebf48ae3b394fd24c2be0ba2120d21de/work-runtime-2.1.0/proguard.txt
 -keep class * extends androidx.work.Worker
 -keep class * extends androidx.work.InputMerger

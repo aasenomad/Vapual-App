@@ -98,7 +98,6 @@
 		06146484483F0BDD058200C742EA2E2A /* FBSDKRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = FC95DBECCD82FA94ABD964BA644F7F76 /* FBSDKRandom.m */; };
 		0678892F652F0D278D676735AB043F2E /* FBSDKAppEventsStateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 386F696024DFB2FFF5751C7087961C56 /* FBSDKAppEventsStateManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		070BF4537D73951EBE4951FAC61345EE /* FLTGoogleSignInPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 9307334FB6189AD73172B8701ED3D029 /* FLTGoogleSignInPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		070FEDD29717658BEE8CD9570E940D80 /* OSFlutterInAppMessagesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 732ACD8742C52735968C9F41B0C0FD7E /* OSFlutterInAppMessagesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		073BFF77C2BE72DBFFD6990323436DAA /* FBSDKError.h in Headers */ = {isa = PBXBuildFile; fileRef = A1032F71666E56BD10C919D69B21EBC4 /* FBSDKError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		073E272052E2A351E6F89B5697B14C4F /* FBSDKAEMNetworker.h in Headers */ = {isa = PBXBuildFile; fileRef = A7EF0CFBFD95CAE3DA7A0D9D50E3C9F7 /* FBSDKAEMNetworker.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		078BD0579E1B8CCEFA4478B11FBDC3F7 /* IdleTimerDisabledObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFD3526BEC566D371ACB8A412EFADF4 /* IdleTimerDisabledObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -206,6 +205,7 @@
 		22B0D743620B9C3065FF807B1AA9F14C /* FBSDKAppEvents+AppEventsConfiguring.h in Headers */ = {isa = PBXBuildFile; fileRef = 5840F5875365DF5280B2D50ACAD3EC34 /* FBSDKAppEvents+AppEventsConfiguring.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		22B739CA2DB0B4779D14371FD834B46D /* FBSDKBridgeAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EED6F3B82856D1484A16135BFEBAE02 /* FBSDKBridgeAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22E938DAC017E2F1BA934E9956C75E5F /* FBSDKLoginKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7AB3BB02F16232F03395E059EC96F4 /* FBSDKLoginKit-dummy.m */; };
+		22F48DAD8893AABB49829126DC0A7E3E /* OSFlutterCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE44568BF57C621623A5BB4CEF88DE /* OSFlutterCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		230813231FC0EADF5478BE389B073E0E /* FBAEMAdvertiserRuleOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 27EB6F7C4E5F3BF889F648856AF1DD94 /* FBAEMAdvertiserRuleOperator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		23334D64191470B2301FADC1D0AFBBA6 /* FBSDKGraphRequestConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2386AB42BF0212C7D4141C8F9E7E8D1C /* FBSDKGraphRequestConnection.m */; };
 		2356D38013FD02216A91C521A28E78A8 /* FLTPathProviderPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = E389A6B5B8A3A86948D56311D1CB805D /* FLTPathProviderPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -215,6 +215,8 @@
 		265723C764ED7179CCE459F260875E6D /* FBSDKHybridAppEventsScriptMessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 942337733484FF071F08E4865D671B5D /* FBSDKHybridAppEventsScriptMessageHandler.m */; };
 		26A5AC5A12AF74ECFCCB314BFFD836E4 /* FBSDKInternalUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 67084E65D9DF76DE6E0F1C05AD3B5B07 /* FBSDKInternalUtility.m */; };
 		26AA0EBA80985DA466A3E0CE34C2CFF5 /* GULLoggerLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C7CFA7EDA8D39B4D695A729A30B9E6 /* GULLoggerLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26F96C2B93B320AB2E5F2E459EE132B3 /* OSFlutterTagsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9B78492B0AE3E98B0EC50FA19FC973 /* OSFlutterTagsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26FEE25AB4FB378F75DA871E87E0E2F1 /* OneSignalPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = D822AFF3C11C52E40BF02F5042A0673E /* OneSignalPlugin.m */; };
 		2702332DE6217E610B62F4C782945AD0 /* FBAEMRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 49445FFC4226FBCBD602D52B1202C728 /* FBAEMRule.m */; };
 		27BA62FA85AD8A9DAF80EE3E4EC2B0C5 /* FBSDKURLSession+URLSessionProxying.h in Headers */ = {isa = PBXBuildFile; fileRef = B06CE93AF85239B02CADE325ED6ABFEE /* FBSDKURLSession+URLSessionProxying.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		27BCC691CD2A328367D9F4B11DB0E706 /* FBSDKBridgeAPI+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 758C6AF89C2D07E4B63D1A3AB4206405 /* FBSDKBridgeAPI+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -323,9 +325,10 @@
 		43E5955F21F405957C1ABC58C7D53BEE /* FBSDKAppEventsConfigurationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E138C11C41DCC22065D593A1649BDCC6 /* FBSDKAppEventsConfigurationProtocol.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		44237B4A9A73C9376ED90402AA49C161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D396EA0B31E81F60989E11302D96FA1 /* Foundation.framework */; };
 		445391A2342D0891ABE0A9A2B0D920C8 /* FBSDKAccessTokenExpirer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1F587A9C260056781AE33846FD2FAC /* FBSDKAccessTokenExpirer.m */; };
-		448E9678673F2478367609E763C99741 /* onesignal_flutter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7882E9DB6D81CEBD2242B5DFAFD577 /* onesignal_flutter-dummy.m */; };
+		448E9678673F2478367609E763C99741 /* onesignal_flutter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7704CB4A20CAA2AB94AC87DF1AD899B0 /* onesignal_flutter-dummy.m */; };
 		44AE063A0FA694C0E69AE2719E8B9D0C /* GULURLSessionDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AAD2E314F8A3863B3BC90995DC1383 /* GULURLSessionDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44D07394F70AF33B286F65B0B28294DD /* FBSDKDevicePoller.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CB8C85F648DEADE10F4AD94CF799B2C /* FBSDKDevicePoller.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		44EB648CD758533E9953348ECE345D90 /* OSFlutterOutcomeEventsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3503F329AB0C25BB68F57DC2D90F490F /* OSFlutterOutcomeEventsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4519AAD4A7FB593CE2EEF6B28720CC7D /* GULAppDelegateSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E394AB35410E7DF707CA2E2BABDB73C /* GULAppDelegateSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4539C99F25242BA6C95EABB4EE40C014 /* FBSDKCoreKit_Basics.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F1E31CD4A9B46F531E2656B8C57885D /* FBSDKCoreKit_Basics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4583CB6DC7A7CFFD31407124E2CE231E /* FBSDKCoreKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF1276574552A6C63A7FD10346C6B55 /* FBSDKCoreKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -334,6 +337,7 @@
 		4680DE8ED0699F160AE85B62937F0D1C /* FBSDKNotificationProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B00AF0BB1E146B814AFA71369C59E1 /* FBSDKNotificationProtocols.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4682D0A8D541C65EC5BD25486FD0A1BF /* FBSDKMeasurementEvent+AppLinkEventPosting.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD600390452ADBC4320CE4939451022 /* FBSDKMeasurementEvent+AppLinkEventPosting.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46934DA1583FED6AD4C772409D046A7B /* FBSDKApplicationStateSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 61838EEB70A3367F7BA6426E7D85DDC7 /* FBSDKApplicationStateSetting.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		46F61170014C71A844D5AEC758E62DEE /* OneSignalPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = E05484DBB592C11449CAE92EFF749AEA /* OneSignalPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47331D5BA1D59F2285146DD67D42D968 /* FBSDKClientTokenProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = B9897E07DBBEA23B724810C4193202AA /* FBSDKClientTokenProviding.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		4762F0B488E88393CFED8F6CAC6B598E /* Toast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6786043172A49D54210183DF1470ECC /* Toast-dummy.m */; };
 		477C1E416AA08888A48D1F9EF1357257 /* google_sign_in-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 734FE33DBA1FE434603D682AAB20E2B9 /* google_sign_in-dummy.m */; };
@@ -383,7 +387,6 @@
 		506598DB6550BBBC9D7AEFDFF6D96D2D /* FBAEMAdvertiserRuleMatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 45DAF7C22E8AD69855F6A4AD6AB85B10 /* FBAEMAdvertiserRuleMatching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5102AB25E20C9DD250A98D6EE8C73895 /* FBSDKConversionValueUpdating.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5E29221AE4A0DF3DC419FF63E5C37B /* FBSDKConversionValueUpdating.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		511DF26DF5EAA574BA4FDD5F3DE8033D /* FBSDKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 56D220F61942F27F26755D90ACC02F90 /* FBSDKLogger.m */; };
-		5137BD018E9FE654ED9EA96D105B57DA /* OSFlutterOutcomeEventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514A4BE6359381CE8D22283C1C7D8C3 /* OSFlutterOutcomeEventsController.m */; };
 		5162843E5D306214273E27E72DF8352A /* FBSDKLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5308BA1B3BD9F5404C29ADC0BEE77058 /* FBSDKLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51A606214F0EBAFA16E351337756975B /* FBSDKTokenCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B381558F096764991A9DC2CC064F530 /* FBSDKTokenCache.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		51E3D44AEA4DEFABB5131CAAF31AF254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D396EA0B31E81F60989E11302D96FA1 /* Foundation.framework */; };
@@ -397,7 +400,6 @@
 		53D0D7278C1083CBF12B66241870C18F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D396EA0B31E81F60989E11302D96FA1 /* Foundation.framework */; };
 		53FF596927ABF19EBEFB5EBC23495EF0 /* FBSDKInstrumentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EFD2B2B7B9C33C5B73BAD275F0A70628 /* FBSDKInstrumentManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		542C072386BA01C0AF687B88D499F39D /* FBSDKCoreKit_Basics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E66686DF39BDA031CEF4D1924425035 /* FBSDKCoreKit_Basics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		544281E37D122B79E2E239B1D3AAED51 /* OneSignalPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D80E27022E6018E7898F3B59632D15B /* OneSignalPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55565871AD60140D0DAED4032DE9D23D /* FBSDKServerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F1AD1ABE7C380C3462AC2D26014CBD /* FBSDKServerConfiguration.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		55E329C6D1F9644194339BBB8F40FA13 /* FBSDKMeasurementEvent_Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C0B0A44FDE819A21725869D9E8A464 /* FBSDKMeasurementEvent_Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		560E901EEA4E9422BBD3095F8204BDB6 /* FBSDKMeasurementEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7C978354B7560D9879BC690898A4AE /* FBSDKMeasurementEvent.m */; };
@@ -432,7 +434,6 @@
 		5CF1C09567B4898EEF23A24212CA6167 /* FBSDKIntegrityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C05AD79782635FEECF560B96CCFF743 /* FBSDKIntegrityManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5D71F255AEDAFD06956A0A1188DCBE14 /* FBSDKGateKeeperManaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D85F61313CB04456114F0AD3F4CCF43 /* FBSDKGateKeeperManaging.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		5D7848DEA90269482EB34D5829A9E9C5 /* FBSDKGraphRequestConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = A5F6ABAD4DEDE8F8B06F4B2E1A5943CD /* FBSDKGraphRequestConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E4BFDE6471869CBCFA3798ED8DC55F3 /* OSFlutterTagsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522C8533CC7916C56322DC5304A8F30 /* OSFlutterTagsController.m */; };
 		5F51A64BE3141808A3BCF1D8AD983262 /* FBSDKCloseIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C99F28C34C58D9B5182F2E23659E7D /* FBSDKCloseIcon.m */; };
 		6044AB60C8B96624A4F5E680F70C8CE9 /* FBSDKCrashObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D86F32C5889633A1F452F38080EC1A75 /* FBSDKCrashObserver.m */; };
 		60E37F9EBD240FA46B903186DABEAD14 /* FluttertoastPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B9414DA6BCF3945FBC2BA59910DEB0 /* FluttertoastPlugin.m */; };
@@ -459,7 +460,6 @@
 		6684AAAF788DD30222F3EB028E6FA3F3 /* FBSDKAuthenticationToken+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D114032C1A51BF198CB2BC56FE90EDA /* FBSDKAuthenticationToken+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		668BBCD6821586D540B00E67391C14A1 /* FBSDKErrorReport.m in Sources */ = {isa = PBXBuildFile; fileRef = AD2134170BADFC80F00A34E5522C157F /* FBSDKErrorReport.m */; };
 		66B759C4976855CA0F5434C2550A053B /* FBSDKModelManager+RulesFromKeyProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 98963ECA286CF3E0DEB70BDB16C7A7C1 /* FBSDKModelManager+RulesFromKeyProvider.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		670BD899E02246D582C48643B30F4FC2 /* OSFlutterCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B86C73059EAC0E6F23BDCB8B37E4C12 /* OSFlutterCategories.m */; };
 		679124C4D0CA7E856F473C9C4D5C0181 /* FBSDKBridgeAPIProtocolNativeV1.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB6EE5A89B0DB0A565DB5620CEB4BB4 /* FBSDKBridgeAPIProtocolNativeV1.m */; };
 		6799D381C670848A9971D7FFD0A6F85A /* GoogleUtilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B68FB9CD55791F863710F5CC8F0015 /* GoogleUtilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67B66E96E2243B0BC8A753A8ADD8952B /* FBSDKWebDialogView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1860D9D79C3C4C73ED2FF7B53A9625 /* FBSDKWebDialogView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -545,6 +545,7 @@
 		7EE9E6284A558556AB80B0032F5DF9F3 /* OIDExternalUserAgentIOSCustomBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E86433C9564FD902A83D0AA008A8FBA /* OIDExternalUserAgentIOSCustomBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F24A642D26DF007A2B99CA74C85FBD4 /* FBSDKEventBindingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F73DCD80558E97676C67DD3A61A28969 /* FBSDKEventBindingManager.m */; };
 		7F3D266407D830646C213C1939D3019B /* FBLPromise+Reduce.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD501B3EA4D452DA9579EB3723E8528 /* FBLPromise+Reduce.m */; };
+		7F9380D43B22FAC29E156DD66FB97294 /* OSFlutterTagsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE322AB8D0005FAE92441F16A2E0CE03 /* OSFlutterTagsController.m */; };
 		7FDD9CA157EC3E50D7E550A2CCDB0CA6 /* NSURLSession+Protocols.h in Headers */ = {isa = PBXBuildFile; fileRef = F41A995DCC5B999A4365EC02EA42F2C6 /* NSURLSession+Protocols.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		80598388346D0579DC31E7E61D680924 /* FBAEMRequestBody.h in Headers */ = {isa = PBXBuildFile; fileRef = A3235511D6BB82D8E0A3861E6C5DDC37 /* FBAEMRequestBody.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81006D1B4BF4A0C1A550502EC3372943 /* FBSDKUnarchiverProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1DDA596109080E130572259FB4E2C3 /* FBSDKUnarchiverProviding.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -563,6 +564,7 @@
 		8471A013AA7374BD798ECA769ACF2FE4 /* FBSDKSKAdNetworkRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB9F7B800A66406DAAE0EE70F1B8F1E /* FBSDKSKAdNetworkRule.m */; };
 		84A096E376CD6519010BEA44FABD6682 /* GULNetworkURLSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A2F2FA7E44E43EB8BD9B3CEF963EA6 /* GULNetworkURLSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84E71C60404CD660CE6E18609947142D /* FBSDKApplicationLifecycleNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFC50D1A4124A4D500FF83333151FAE /* FBSDKApplicationLifecycleNotifications.m */; };
+		85B63D442441E2A5DC0D6E49DF3F4588 /* OSFlutterInAppMessagesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C08D608C11A2B7065E0623FC97ABC2D /* OSFlutterInAppMessagesController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		860625D82C355D133ECB15FFEBD8717C /* FBSDKModelUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2FEF98F39B6A3F796F953C5FB1309A /* FBSDKModelUtility.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		868173849F927D02B76C09B5A41808E1 /* FBLPromiseError.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E63A7580FE1D05741CAFC7CDE24F6B /* FBLPromiseError.h */; };
 		873D6C28C2DD7CD4890B16A75855B2FB /* AppAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 545B35B9213144E5A20583761F956719 /* AppAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -607,7 +609,6 @@
 		8EB31CEFBE1721D1DF5DCC1718D78856 /* GTMSessionFetcherLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 502CDEF5670B8651C4AB2B82E622524F /* GTMSessionFetcherLogging.m */; };
 		8EE2903B22FF1F79C224F5F86A271C2A /* FBSDKContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA51E0BC9DA7E3D2AE55795085C3991 /* FBSDKContainerViewController.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		8EF02C35E24C2C176D837904195A60F4 /* FBSDKWebViewAppLinkResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCA42AEFBE07D89DD05F79B5073B6D5 /* FBSDKWebViewAppLinkResolver.m */; };
-		8F778E000791722C29C8D2594A9A3F92 /* OSFlutterTagsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E01F082474F035EA70B1DB5303CB4F0 /* OSFlutterTagsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FD17E1FBC50C71505EBAFBEF53251C4 /* GULHeartbeatDateStorageUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 0871EF0AAD2F9ED7C21C4713AFE47540 /* GULHeartbeatDateStorageUserDefaults.m */; };
 		8FE63D91DD364C079DFC4DBCD36301BB /* FBSDKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 359622C300260418FE52FF6A0E8C2535 /* FBSDKBase64.m */; };
 		8FFFB7C1B8C2C17B9E567DE9A40FC4DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D396EA0B31E81F60989E11302D96FA1 /* Foundation.framework */; };
@@ -617,7 +618,6 @@
 		917E54795D943FCD459977DD3FD46FA2 /* FBAEMKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 603E6565911C99FB575F9C358D35A667 /* FBAEMKit-dummy.m */; };
 		91C4A0A990D5E4B9748FB4108901BC3D /* FLTAd_Internal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F23549A7957FCE471CE9DD81F95D2EA /* FLTAd_Internal.m */; };
 		91D0A999A9254E43377E7F79558DC325 /* FBLPromise+Testing.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 3F4387F3400C46AF874687123CEF966A /* FBLPromise+Testing.h */; };
-		9254A834C29F2040F9A293D9EFFD1346 /* OneSignalPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0F14FFDDBEB732363C9821352C79E0 /* OneSignalPlugin.m */; };
 		92DBFCF225003B46EA968D5CFDE3D668 /* _FBSDKLoginRecoveryAttempter.m in Sources */ = {isa = PBXBuildFile; fileRef = EC399DC90F8DE116CA116E83ED5C08EB /* _FBSDKLoginRecoveryAttempter.m */; };
 		9319A910CE8F6001411CCFE572944C6F /* FBSDKCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 36211E9977D92C44808347B93FE10356 /* FBSDKCrypto.m */; };
 		93347D2028F18AA3FF1E1122805E9639 /* FBSDKAppLinkResolverRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 75590171AC41DD7C721CD5047E9A738F /* FBSDKAppLinkResolverRequestBuilder.m */; };
@@ -752,7 +752,7 @@
 		B4E3F1E808EBE6B17375F006185D84EB /* FBSDKBridgeAPIProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4871B3D8185D24647C601E0291A2CBD3 /* FBSDKBridgeAPIProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4F9D40790288341BC358D07F0AD877A /* FBSDKAppEventsUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A11869A0EC3CCCDB87EEE659499CA94 /* FBSDKAppEventsUtility.m */; };
 		B50DE4B5F8718B4CA2D6FF615ABBC99B /* FBSDKProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 622B36C283176B9FD54496F59AE7A9B8 /* FBSDKProfile.m */; };
-		B5192794A730D319B750CC2C39E5AAC4 /* onesignal_flutter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14466A409395EA5AF6703B8080586BA9 /* onesignal_flutter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5192794A730D319B750CC2C39E5AAC4 /* onesignal_flutter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D9ED666E63C8C55E0A4BE8AB0E88F9 /* onesignal_flutter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B58266F45BEB5122BF07B782AAC7B415 /* FBLPromise+Race.h in Headers */ = {isa = PBXBuildFile; fileRef = 318E104B3F81AB204129B549A4767235 /* FBLPromise+Race.h */; };
 		B5A82307CC48D1C4A88EA9485430E88F /* FBSDKRestrictiveDataFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 151665BED3D19075759F5DCBCFCADD49 /* FBSDKRestrictiveDataFilterManager.m */; };
 		B5E935E6B524AA51244DB054E746BDD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D396EA0B31E81F60989E11302D96FA1 /* Foundation.framework */; };
@@ -795,6 +795,7 @@
 		C0DC64AFA3B170B6EA169618DB89CADE /* FBSDKInstrumentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4A5B3B1BC7F3BE0FA3359AF6973426 /* FBSDKInstrumentManager.m */; };
 		C0F394C4D75A3636AD95193EE089E2D2 /* OIDExternalUserAgentCatalyst.m in Sources */ = {isa = PBXBuildFile; fileRef = E890DE84BDF38C6DB6A83AEC4F98BEA2 /* OIDExternalUserAgentCatalyst.m */; };
 		C120740CF36879408563512F3FF549C7 /* wakelock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E001BE1920774CA37A2EDA2E21E71812 /* wakelock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1288D779824E7FE4CAE5ADFD9952ACA /* OSFlutterOutcomeEventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FA1DA8CBC59626F85BB024F580C71D /* OSFlutterOutcomeEventsController.m */; };
 		C1358E0723AD3624A368D7D68EADC654 /* FBSDKUnarchiverProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C59F2D5DC2CB981C555CAFC7906A68E /* FBSDKUnarchiverProvider.m */; };
 		C1748EBC46FA26B3A12728822F7D820E /* FBSDKUnarchiverProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2E2E85F86B0B62A04EA6FD570A5CDF /* FBSDKUnarchiverProvider.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		C19845B71C2C9CDE9910E701490FA255 /* FBSKAdNetworkReporting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3535937BA38F963DCD09AF13384828E8 /* FBSKAdNetworkReporting.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -840,7 +841,6 @@
 		CC8B198E43F547F0B72DD78A9A8BBE2B /* FBSDKObjectDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE909D4D7177BC634A9980DFE7A1B1C /* FBSDKObjectDecoder.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CCC8EC4F70B4618C2C200246DCD89A34 /* FBSDKProductsRequestProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 5321FA4F3D0229E488C60756FC66FD5D /* FBSDKProductsRequestProtocols.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CD70576B692AC1E8D34ED4FC3C8C6CB0 /* FBSDKURLSessionProxyFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C50971EC30C874887C73CD6F1B58576F /* FBSDKURLSessionProxyFactory.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		CDCCE9F4B8EBED5F8D4C78556DCEBA16 /* OSFlutterInAppMessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B6C94B40682B9E28717BA5C7F1E80C /* OSFlutterInAppMessagesController.m */; };
 		CDE0C506A542B3FB559ED2360A9FF18C /* FBSDKFileDataExtracting.h in Headers */ = {isa = PBXBuildFile; fileRef = E02616C56E8EDE407C18494E951FEC46 /* FBSDKFileDataExtracting.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE1856A516C7385BA946312D3A295443 /* GTMOAuth2KeychainCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D071039E30B1263B3ADBCAADF8597A0 /* GTMOAuth2KeychainCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF095C0293762DF38DA435332983D08A /* _FBSDKLoginRecoveryAttempter.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A276CC9BC76A018D04BA3E3FE9B3D7 /* _FBSDKLoginRecoveryAttempter.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -921,6 +921,7 @@
 		E5748C408366DB0F5D2D2811F19B82FC /* FBSDKAppURLSchemeProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = C2AE6DA222202DC148B0F235F2953EA3 /* FBSDKAppURLSchemeProviding.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E576AC7D36DACC7C35DC4E133B48350B /* FLTWebViewFlutterPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9F021A7125ED1A3A5D8F0BE0EFF58A /* FLTWebViewFlutterPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5A00328261C1D2F647404F11C60C06E /* FBAEMReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CFCABC04740352550BFC5FD12CBF69 /* FBAEMReporter.m */; };
+		E5CFD16FF19A852D48BA943F7831546A /* OSFlutterCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4B763B8A5EE5F6875D3708402C60C /* OSFlutterCategories.m */; };
 		E60B4E6CA7FC574D39A05AD28CA1FB02 /* GULAppEnvironmentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0530D42D9326CB1AA5FC63A857B32855 /* GULAppEnvironmentUtil.m */; };
 		E63172560BF2DD766B1B2EE467E4F729 /* FBSDKEventBindingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C017A90B9C8CCB1545C9B337537C992 /* FBSDKEventBindingManager.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E64F03EDE5689B86B007A7B20DDD4BD9 /* FBSDKModelRuntime.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F497BCD9064810C363499FB40DE5AA3F /* FBSDKModelRuntime.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -953,7 +954,6 @@
 		EE6C3FCE8E0227902246FEC9809630B6 /* FBLPromise+Always.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = A5F10EC93F47E647D7572CC6BBE8CD26 /* FBLPromise+Always.h */; };
 		EE73B96A82149906545DF53C81FB54D1 /* FBSDKWebViewProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E64DC0BCED373214BDDCB06C49A7ED /* FBSDKWebViewProviding.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EE945A2C9F3748904D13EA8A60F024C3 /* FBSDKGraphRequestPiggybackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9431B210744D9A862C52288AE55E1963 /* FBSDKGraphRequestPiggybackManager.m */; };
-		F024B252387C4EBDDE46A8C0EF1F3D0A /* OSFlutterCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = FC23CEB8FA26AEEB550486B84D5040AE /* OSFlutterCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F04FD488DB6A23FC5417CF990DE46525 /* FBSDKFeatureDisabling.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB1F151C9B83ABCA6F425E6C81EB90D /* FBSDKFeatureDisabling.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F058A9CD347FE3CBF6BE956E6A12355C /* FLTSharedPreferencesPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A07E776574E78C3CA7A1A829AE16E26 /* FLTSharedPreferencesPlugin.m */; };
 		F0E2C5CD4BF13331190E7EB2E4E0C832 /* wakelock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC64ECD96D87E1E8FEE83C267D943BA6 /* wakelock-dummy.m */; };
@@ -972,7 +972,6 @@
 		F5B1325EF694EB6484AC914B1C0F846C /* FLTVideoPlayerPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F53D16A259FDD364FEAA5040C69A42F /* FLTVideoPlayerPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5BC8A34C798EDF06F74510E2993F498 /* FBSDKInfoDictionaryProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0FF658EF4CE9C15833CBB12AEC7F8F /* FBSDKInfoDictionaryProviding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5BD545F5FA09E877A0EEBD96477C004 /* OIDURLQueryComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 196CD33FEA15F2D6037C385FB6557478 /* OIDURLQueryComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5D42507769964A286EC8BF60D539C1F /* OSFlutterOutcomeEventsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 81816AAC0E4BF7A02DA5B344A0DD5469 /* OSFlutterOutcomeEventsController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F64658D9EC78BA42D5189624C5FD221A /* FBSDKErrorRecoveryAttempter.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6F3AB1720373A218C2FD5B22CDD364 /* FBSDKErrorRecoveryAttempter.m */; };
 		F68E234368F736A30D90CFF802133C75 /* fluttertoast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1B89A32AC777FF9945123836FBD3AB /* fluttertoast-dummy.m */; };
 		F6E5907AC5E882AA8EF5F8A9D84B8324 /* OIDErrorUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5D5DEADDF31BAD841003726BAF7A3C /* OIDErrorUtilities.m */; };
@@ -1013,6 +1012,7 @@
 		FF04FB412A13BA8BFA7AC9140E670666 /* OIDServiceDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 950C3208C37EC0758364A57DE7854D60 /* OIDServiceDiscovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF3FED1489043FF98C3D710B8E9F403E /* FBSDKURLOpener.h in Headers */ = {isa = PBXBuildFile; fileRef = D9E62C6A5505CE54F3AD3412C7B39337 /* FBSDKURLOpener.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF928C99F9C0DCE0830A07825E338F69 /* FBSDKLoginTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76912701AD130DB830E52C842888233B /* FBSDKLoginTooltipView.m */; };
+		FFBDE4A450674535E48B8F7DE7238F4C /* OSFlutterInAppMessagesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB3A73852FE3D8BE8E0034368C720C /* OSFlutterInAppMessagesController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1544,6 +1544,7 @@
 		009FC3D54A19756B630A007A53027136 /* FBSDKDeviceLoginManagerResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKDeviceLoginManagerResult.h; path = FBSDKLoginKit/FBSDKLoginKit/FBSDKDeviceLoginManagerResult.h; sourceTree = "<group>"; };
 		00D12EEA0F2A37DC4FE19E07C15F2A82 /* FBSDKLoginConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKLoginConstants.m; path = FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginConstants.m; sourceTree = "<group>"; };
 		01042CDCBF591F4F7E2BDE128C57DA62 /* video_player-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "video_player-prefix.pch"; sourceTree = "<group>"; };
+		01167487E6609558265BC1527E7FF99C /* onesignal_flutter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "onesignal_flutter-Info.plist"; sourceTree = "<group>"; };
 		0171D89B68F9D4A2421A01DB2BCD10C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/LICENSE"; sourceTree = "<group>"; };
 		017C806E9D4747C78D97A65A69D76E9D /* FlutterFacebookAuthPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterFacebookAuthPlugin.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_auth-3.5.2/ios/Classes/FlutterFacebookAuthPlugin.m"; sourceTree = "<group>"; };
 		01B67C0403913A135853AC8846E252FB /* FBSDKEventDeactivationManager+Protocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKEventDeactivationManager+Protocols.h"; path = "FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/EventDeactivation/FBSDKEventDeactivationManager+Protocols.h"; sourceTree = "<group>"; };
@@ -1569,6 +1570,7 @@
 		07438AFEE609752597CBF7F818BA86C4 /* FBSDKAuthenticationTokenFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAuthenticationTokenFactory.h; path = FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKAuthenticationTokenFactory.h; sourceTree = "<group>"; };
 		075C8D1F5AFCD05273D9AC6DDB274096 /* FBSDKErrorRecoveryConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKErrorRecoveryConfiguration.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKErrorRecoveryConfiguration.h; sourceTree = "<group>"; };
 		07776A88BDE72100DAEAABB918188E00 /* GoogleUtilities.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUtilities.debug.xcconfig; sourceTree = "<group>"; };
+		07F4B763B8A5EE5F6875D3708402C60C /* OSFlutterCategories.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSFlutterCategories.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/Classes/OSFlutterCategories.m"; sourceTree = "<group>"; };
 		0854ABE17F95F0C6C681890F99474F8A /* webview_flutter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "webview_flutter-dummy.m"; sourceTree = "<group>"; };
 		0871EF0AAD2F9ED7C21C4713AFE47540 /* GULHeartbeatDateStorageUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULHeartbeatDateStorageUserDefaults.m; path = GoogleUtilities/Environment/GULHeartbeatDateStorageUserDefaults.m; sourceTree = "<group>"; };
 		09079DE69E523992345947174E31FF08 /* FBSDKUserDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKUserDataStore.h; path = Sources/FBSDKCoreKit_Basics/include/FBSDKUserDataStore.h; sourceTree = "<group>"; };
@@ -1590,7 +1592,6 @@
 		0D7C978354B7560D9879BC690898A4AE /* FBSDKMeasurementEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKMeasurementEvent.m; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.m; sourceTree = "<group>"; };
 		0DB91236CF11A5932A130F55952499FD /* FBSDKTooltipView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKTooltipView.h; path = FBSDKLoginKit/FBSDKLoginKit/FBSDKTooltipView.h; sourceTree = "<group>"; };
 		0DFD093A9AC5D5C537FCEB00FE888398 /* FBLPromise+Recover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Recover.h"; path = "Sources/FBLPromises/include/FBLPromise+Recover.h"; sourceTree = "<group>"; };
-		0E01F082474F035EA70B1DB5303CB4F0 /* OSFlutterTagsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSFlutterTagsController.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/Classes/OSFlutterTagsController.h"; sourceTree = "<group>"; };
 		0EB41BD85776EB1CB04E927DC95646DA /* FBSDKSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKSwizzler.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKSwizzler.h; sourceTree = "<group>"; };
 		0F479FB28D9B2CBB280EDE210C430F56 /* FBSDKLoginTooltipView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKLoginTooltipView.h; path = FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginTooltipView.h; sourceTree = "<group>"; };
 		0F64344328BFFA0389018FC28A6E4258 /* FBSDKFeatureManager+FeatureChecking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKFeatureManager+FeatureChecking.h"; path = "FBSDKCoreKit/FBSDKCoreKit/Internal/FeatureManager/FBSDKFeatureManager+FeatureChecking.h"; sourceTree = "<group>"; };
@@ -1617,7 +1618,6 @@
 		13608A0061A0C7F8E72C851DC754BE66 /* FBLPromise+Retry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Retry.h"; path = "Sources/FBLPromises/include/FBLPromise+Retry.h"; sourceTree = "<group>"; };
 		136A4DF7C7728C311D79BABB38EFD3B4 /* OIDRegistrationRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDRegistrationRequest.h; path = Source/AppAuthCore/OIDRegistrationRequest.h; sourceTree = "<group>"; };
 		1426105BB8819F6D1CBC0CB8D1C9F387 /* google_mobile_ads.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = google_mobile_ads.modulemap; sourceTree = "<group>"; };
-		14466A409395EA5AF6703B8080586BA9 /* onesignal_flutter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "onesignal_flutter-umbrella.h"; sourceTree = "<group>"; };
 		147380CFA06854A3FD26D23FE0CD4C70 /* FBSDKMetadataIndexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKMetadataIndexer.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/AAM/FBSDKMetadataIndexer.h; sourceTree = "<group>"; };
 		14B6E1999E3F94D8A43D60F996DB2F21 /* FBSDKImpressionTrackingButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKImpressionTrackingButton.m; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKImpressionTrackingButton.m; sourceTree = "<group>"; };
 		151665BED3D19075759F5DCBCFCADD49 /* FBSDKRestrictiveDataFilterManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKRestrictiveDataFilterManager.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Integrity/FBSDKRestrictiveDataFilterManager.m; sourceTree = "<group>"; };
@@ -1686,7 +1686,6 @@
 		23884A44456E546195277D7AD1E07D68 /* FLTVideoPlayerPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTVideoPlayerPlugin.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.1.12/ios/Classes/FLTVideoPlayerPlugin.m"; sourceTree = "<group>"; };
 		23A70CCA7333494D006402C9D92A742E /* FBSDKDeviceRequestsHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKDeviceRequestsHelper.h; path = FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKDeviceRequestsHelper.h; sourceTree = "<group>"; };
 		24A49DF3349E4AC81FE29D27094AFD45 /* OIDAuthorizationService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationService.m; path = Source/AppAuthCore/OIDAuthorizationService.m; sourceTree = "<group>"; };
-		24AE5D1CA10F87D559AE11544294823D /* onesignal_flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = onesignal_flutter.release.xcconfig; sourceTree = "<group>"; };
 		24DA5E5B8A7F7D9169A92DAE845E90AF /* FBSDKDeviceDialogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKDeviceDialogView.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKDeviceDialogView.h; sourceTree = "<group>"; };
 		24E71E4735B48BA85C14452D7973238C /* FBSDKUserAgeRange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKUserAgeRange.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKUserAgeRange.h; sourceTree = "<group>"; };
 		251B9E72DB03C8DABD1989B7701EE912 /* FBSDKContainerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKContainerViewController.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKContainerViewController.m; sourceTree = "<group>"; };
@@ -1721,7 +1720,6 @@
 		2ADFE8D1E53B815F6D323E12F3F45473 /* webview_flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = webview_flutter.debug.xcconfig; sourceTree = "<group>"; };
 		2AF0999F0900D125876F352879A1A859 /* FBSDKGraphRequestDataAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKGraphRequestDataAttachment.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKGraphRequestDataAttachment.h; sourceTree = "<group>"; };
 		2B028859CCD1084F75DE35E17848423D /* FBSDKCoreKit_Basics */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSDKCoreKit_Basics; path = FBSDKCoreKit_Basics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B86C73059EAC0E6F23BDCB8B37E4C12 /* OSFlutterCategories.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSFlutterCategories.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/Classes/OSFlutterCategories.m"; sourceTree = "<group>"; };
 		2BB2121739E894B2D104FFF17B0A4BF0 /* FBSDKBridgeAPIResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKBridgeAPIResponse.m; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKBridgeAPIResponse.m; sourceTree = "<group>"; };
 		2BECB035BF25C3CAAED9002EC5BE833F /* FBLPromise+Retry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Retry.m"; path = "Sources/FBLPromises/FBLPromise+Retry.m"; sourceTree = "<group>"; };
 		2BECFA54AF82F2774FC5DDF20EB9261C /* wakelock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "wakelock-Info.plist"; sourceTree = "<group>"; };
@@ -1733,7 +1731,6 @@
 		2D7DA9B6E0D823B2CBB43D12413ACFFE /* FBSDKBackgroundEventLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKBackgroundEventLogger.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKBackgroundEventLogger.h; sourceTree = "<group>"; };
 		2DCEF606CBAAFA44A6142DBC1331DC8E /* GoogleUtilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoogleUtilities.modulemap; sourceTree = "<group>"; };
 		2DFE269D2EC02A19EB0705B0332BC240 /* GULLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLogger.h; path = GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h; sourceTree = "<group>"; };
-		2DFFF0E9E262DB7C90293F6F106FD5AE /* onesignal_flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = onesignal_flutter.debug.xcconfig; sourceTree = "<group>"; };
 		2E003EABD8B71877FB05D2CA564C0BA6 /* webview_flutter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "webview_flutter-Info.plist"; sourceTree = "<group>"; };
 		2E065E98A4236F60E1CCD212BDA9AA40 /* FBSDKTimeSpentRecording.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKTimeSpentRecording.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKTimeSpentRecording.h; sourceTree = "<group>"; };
 		2E66686DF39BDA031CEF4D1924425035 /* FBSDKCoreKit_Basics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSDKCoreKit_Basics-umbrella.h"; sourceTree = "<group>"; };
@@ -1758,6 +1755,7 @@
 		33B4295146D5860DD926A3E70749B0DF /* OIDAuthorizationService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthorizationService.h; path = Source/AppAuthCore/OIDAuthorizationService.h; sourceTree = "<group>"; };
 		33D70FCDCF56B88A8CF889AF3A720DD2 /* OIDServiceDiscovery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDServiceDiscovery.m; path = Source/AppAuthCore/OIDServiceDiscovery.m; sourceTree = "<group>"; };
 		346DC7D4C8A06431F313410A0784A1B8 /* GULNetworkConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetworkConstants.m; path = GoogleUtilities/Network/GULNetworkConstants.m; sourceTree = "<group>"; };
+		3503F329AB0C25BB68F57DC2D90F490F /* OSFlutterOutcomeEventsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSFlutterOutcomeEventsController.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/Classes/OSFlutterOutcomeEventsController.h"; sourceTree = "<group>"; };
 		351B9B84747CAF80F4C1D8FED20636C8 /* shared_preferences_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = shared_preferences_ios.release.xcconfig; sourceTree = "<group>"; };
 		3535937BA38F963DCD09AF13384828E8 /* FBSKAdNetworkReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSKAdNetworkReporting.h; path = Sources/FBAEMKit/include/FBSKAdNetworkReporting.h; sourceTree = "<group>"; };
 		359622C300260418FE52FF6A0E8C2535 /* FBSDKBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKBase64.m; path = Sources/FBSDKCoreKit_Basics/FBSDKBase64.m; sourceTree = "<group>"; };
@@ -1831,7 +1829,6 @@
 		4495C83E627F3C307FDF88F94C9600BF /* shared_preferences_ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "shared_preferences_ios-prefix.pch"; sourceTree = "<group>"; };
 		44D1D0CED6313C7E635F30CE11D9DB1E /* wakelock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wakelock-prefix.pch"; sourceTree = "<group>"; };
 		44DD10B82AF1E3BBBCA9D403396500D0 /* FBSDKModelManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKModelManager.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ML/FBSDKModelManager.h; sourceTree = "<group>"; };
-		4522C8533CC7916C56322DC5304A8F30 /* OSFlutterTagsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSFlutterTagsController.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/Classes/OSFlutterTagsController.m"; sourceTree = "<group>"; };
 		45DAF7C22E8AD69855F6A4AD6AB85B10 /* FBAEMAdvertiserRuleMatching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBAEMAdvertiserRuleMatching.h; path = Sources/FBAEMKit/FBAEMAdvertiserRuleMatching.h; sourceTree = "<group>"; };
 		4619E36E7D0B33D0ACAD4FE6B3EC7A98 /* OIDResponseTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDResponseTypes.m; path = Source/AppAuthCore/OIDResponseTypes.m; sourceTree = "<group>"; };
 		467BC0863C88B1F0E47CB18EB93ABF68 /* FBSDKGraphRequestFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKGraphRequestFactory.m; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestFactory.m; sourceTree = "<group>"; };
@@ -1852,6 +1849,7 @@
 		4A1B5A81ADC2FF043030D1EC0CFB6228 /* FBSDKPaymentProductRequestor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKPaymentProductRequestor.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKPaymentProductRequestor.h; sourceTree = "<group>"; };
 		4A87AE43FE1D0CCEDFC5B6FD11D46F83 /* OIDExternalUserAgentSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentSession.h; path = Source/AppAuthCore/OIDExternalUserAgentSession.h; sourceTree = "<group>"; };
 		4A9B96792636E4F9129D15EEF78B21FE /* Pods-Runner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Runner-umbrella.h"; sourceTree = "<group>"; };
+		4ABB3A73852FE3D8BE8E0034368C720C /* OSFlutterInAppMessagesController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSFlutterInAppMessagesController.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/Classes/OSFlutterInAppMessagesController.m"; sourceTree = "<group>"; };
 		4ADF616C54C0A38FDCFFC693CBA4E505 /* AppAuthCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppAuthCore.h; path = Source/AppAuthCore.h; sourceTree = "<group>"; };
 		4AE2194869B554BE11D9AD3E8E00A88F /* OIDClientMetadataParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDClientMetadataParameters.m; path = Source/AppAuthCore/OIDClientMetadataParameters.m; sourceTree = "<group>"; };
 		4AF3B972C94DFF11700E306F18F01DF3 /* Pods-OneSignalNotificationServiceExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OneSignalNotificationServiceExtension"; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1933,11 +1931,10 @@
 		5B4AF1CE9386EE19C0F123BA7DE5730F /* FBSDKBridgeAPIResponseFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKBridgeAPIResponseFactory.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPIResponseFactory.h; sourceTree = "<group>"; };
 		5B4E830D6CBFD029033B41BFE1C605B8 /* AudioCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioCategory.swift; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_tts-3.2.2/ios/Classes/AudioCategory.swift"; sourceTree = "<group>"; };
 		5B91112C64C3B8566EAF714F0DB4E337 /* OIDAuthState+IOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OIDAuthState+IOS.h"; path = "Source/AppAuth/iOS/OIDAuthState+IOS.h"; sourceTree = "<group>"; };
-		5BBCBD400EEEDDF54AE8BDCB27DC5642 /* onesignal_flutter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "onesignal_flutter-prefix.pch"; sourceTree = "<group>"; };
 		5BC8AA1FD14B317038E5C81481DE383D /* AccessToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessToken.swift; path = Sources/FacebookCore/Swift/AccessToken.swift; sourceTree = "<group>"; };
 		5BE32E1E427587A706DFDB6D19A5B8A3 /* FBSDKTimeSpentData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKTimeSpentData.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKTimeSpentData.h; sourceTree = "<group>"; };
 		5C05AD79782635FEECF560B96CCFF743 /* FBSDKIntegrityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKIntegrityManager.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Integrity/FBSDKIntegrityManager.h; sourceTree = "<group>"; };
-		5C0F14FFDDBEB732363C9821352C79E0 /* OneSignalPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OneSignalPlugin.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/Classes/OneSignalPlugin.m"; sourceTree = "<group>"; };
+		5C08D608C11A2B7065E0623FC97ABC2D /* OSFlutterInAppMessagesController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSFlutterInAppMessagesController.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/Classes/OSFlutterInAppMessagesController.h"; sourceTree = "<group>"; };
 		5C53C0956C07BF2CFE5AFD17E16A501B /* FBSDKCoreKitImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKCoreKitImport.h; path = FBSDKLoginKit/FBSDKLoginKit/FBSDKCoreKitImport.h; sourceTree = "<group>"; };
 		5D806CBEFC0682EC0D6137CF0792B0BA /* FBSDKEventBinding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKEventBinding.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKEventBinding.m; sourceTree = "<group>"; };
 		5D9BDD42D676A924348EB19D708E438E /* FBSDKGraphRequestPiggybackManaging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKGraphRequestPiggybackManaging.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Network/FBSDKGraphRequestPiggybackManaging.h; sourceTree = "<group>"; };
@@ -1953,6 +1950,7 @@
 		5F25F4DD88AA2C72C00DCC10974C4083 /* FacebookSDK.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FacebookSDK.strings; path = pa.lproj/FacebookSDK.strings; sourceTree = "<group>"; };
 		5F65F0CAC50B32684C752B98081DAA09 /* FBSDKServerConfigurationProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKServerConfigurationProvider.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKServerConfigurationProvider.h; sourceTree = "<group>"; };
 		5F7AB3BB02F16232F03395E059EC96F4 /* FBSDKLoginKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSDKLoginKit-dummy.m"; sourceTree = "<group>"; };
+		5F9B78492B0AE3E98B0EC50FA19FC973 /* OSFlutterTagsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSFlutterTagsController.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/Classes/OSFlutterTagsController.h"; sourceTree = "<group>"; };
 		5FADE846D9E2A4BCABC9280A2625EF18 /* GULMutableDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULMutableDictionary.m; path = GoogleUtilities/Network/GULMutableDictionary.m; sourceTree = "<group>"; };
 		5FBCB7DB4CDC0A4AE949945B3FBFA923 /* FBSDKSettings+SettingsLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKSettings+SettingsLogging.h"; path = "FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKSettings+SettingsLogging.h"; sourceTree = "<group>"; };
 		5FD090EA3CF3416544E8028828EE4432 /* path_provider_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = path_provider_ios.debug.xcconfig; sourceTree = "<group>"; };
@@ -2023,12 +2021,12 @@
 		6C9E93B9FE6061D9110D283A8CE66097 /* flutter_tts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_tts-umbrella.h"; sourceTree = "<group>"; };
 		6C9EA02E53FDA5C203E1E5919B1FD335 /* FBSDKAppLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKAppLink.m; path = FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLink.m; sourceTree = "<group>"; };
 		6CB8C85F648DEADE10F4AD94CF799B2C /* FBSDKDevicePoller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKDevicePoller.h; path = FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKDevicePoller.h; sourceTree = "<group>"; };
+		6CC49E8261E7EDD84247AF19CFED0238 /* onesignal_flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = onesignal_flutter.debug.xcconfig; sourceTree = "<group>"; };
 		6CF27F2F6601EA9005B8189E44F6E871 /* FacebookSDK.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FacebookSDK.strings; path = nl.lproj/FacebookSDK.strings; sourceTree = "<group>"; };
 		6D370D5C99C5AECDB225C825482E9326 /* google_sign_in-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "google_sign_in-prefix.pch"; sourceTree = "<group>"; };
 		6D3F67BE25BC1446AF87EDF851DEB98D /* FBSDKDeviceViewControllerBase+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKDeviceViewControllerBase+Internal.h"; path = "FBSDKCoreKit/FBSDKCoreKit/Internal/Device/FBSDKDeviceViewControllerBase+Internal.h"; sourceTree = "<group>"; };
 		6D7701B59F96D41FC251A9EEA05B1EE1 /* FBSDKEventBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKEventBinding.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKEventBinding.h; sourceTree = "<group>"; };
 		6D885456F06234A4F75DE2B7004164D7 /* FBLPromise+Catch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Catch.m"; path = "Sources/FBLPromises/FBLPromise+Catch.m"; sourceTree = "<group>"; };
-		6DE12DC03BA241B9665E83EF875605BC /* onesignal_flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = onesignal_flutter.podspec; path = "../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/onesignal_flutter.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6DFE973A177E1DD3258E402BC7397CE6 /* FBSDKMeasurementEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKMeasurementEvent.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKMeasurementEvent.h; sourceTree = "<group>"; };
 		6E86433C9564FD902A83D0AA008A8FBA /* OIDExternalUserAgentIOSCustomBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDExternalUserAgentIOSCustomBrowser.h; path = Source/AppAuth/iOS/OIDExternalUserAgentIOSCustomBrowser.h; sourceTree = "<group>"; };
 		6E9A6AE30032A9A32AF657F74DA775FE /* FBSDKError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKError.m; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKError.m; sourceTree = "<group>"; };
@@ -2054,7 +2052,6 @@
 		7304C83806D040DD2E4F2DC42406EA79 /* FBSDKApplicationActivating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKApplicationActivating.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKApplicationActivating.h; sourceTree = "<group>"; };
 		731276B7E8D5033E51B3FE31C7EC925C /* FBSDKRestrictiveData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKRestrictiveData.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Integrity/FBSDKRestrictiveData.h; sourceTree = "<group>"; };
 		7329AB03436C49DBA7C3B199F31618E1 /* FBSDKAppLinkUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAppLinkUtility.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAppLinkUtility.h; sourceTree = "<group>"; };
-		732ACD8742C52735968C9F41B0C0FD7E /* OSFlutterInAppMessagesController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSFlutterInAppMessagesController.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/Classes/OSFlutterInAppMessagesController.h"; sourceTree = "<group>"; };
 		734FE33DBA1FE434603D682AAB20E2B9 /* google_sign_in-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "google_sign_in-dummy.m"; sourceTree = "<group>"; };
 		73CB698817FB436814C57514839D4EC3 /* FBSDKViewHierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKViewHierarchy.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ViewHierarchy/FBSDKViewHierarchy.h; sourceTree = "<group>"; };
 		73FAB24DF6624619F1C305F3206F2D7F /* FBSDKBridgeAPIRequest+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKBridgeAPIRequest+Private.h"; path = "FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPIRequest+Private.h"; sourceTree = "<group>"; };
@@ -2069,8 +2066,10 @@
 		758FB1665F504E7F1EE2E8442F415735 /* video_player.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = video_player.modulemap; sourceTree = "<group>"; };
 		75DE00F5ED35C1AEE20A52E6EBA757F4 /* FBSDKAppEventsFlushReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAppEventsFlushReason.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKAppEventsFlushReason.h; sourceTree = "<group>"; };
 		76085A05FEB5BF3CB5F714C65A3AC1C4 /* webview_cookie_manager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = webview_cookie_manager.podspec; path = "../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_cookie_manager-2.0.6/ios/webview_cookie_manager.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		767E7B515EDC4136F0A741079EF469E8 /* onesignal_flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = onesignal_flutter.release.xcconfig; sourceTree = "<group>"; };
 		76912701AD130DB830E52C842888233B /* FBSDKLoginTooltipView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKLoginTooltipView.m; path = FBSDKLoginKit/FBSDKLoginKit/FBSDKLoginTooltipView.m; sourceTree = "<group>"; };
 		770198A18250503A490192AD101EE201 /* FBSDKMetadataIndexer+MetadataIndexing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKMetadataIndexer+MetadataIndexing.h"; path = "FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/AAM/FBSDKMetadataIndexer+MetadataIndexing.h"; sourceTree = "<group>"; };
+		7704CB4A20CAA2AB94AC87DF1AD899B0 /* onesignal_flutter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "onesignal_flutter-dummy.m"; sourceTree = "<group>"; };
 		77E63A7580FE1D05741CAFC7CDE24F6B /* FBLPromiseError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromiseError.h; path = Sources/FBLPromises/include/FBLPromiseError.h; sourceTree = "<group>"; };
 		7810B0C7ECF21D5E0ADFCE361EC72DDC /* AppAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppAuth-dummy.m"; sourceTree = "<group>"; };
 		782AB4EFD95AB321D5F9904EBA285483 /* WakelockPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WakelockPlugin.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/wakelock-0.5.2/ios/Classes/WakelockPlugin.h"; sourceTree = "<group>"; };
@@ -2097,7 +2096,6 @@
 		7CD7E29E0054E37AAC71005CDBE07D68 /* FBSDKAtePublisherFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKAtePublisherFactory.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAtePublisherFactory.m; sourceTree = "<group>"; };
 		7CF0B56C2CFCEBB6177FD1E792BCBE88 /* PromisesObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromisesObjC.modulemap; sourceTree = "<group>"; };
 		7D0CD8A69730AFCBC221B97205F08D3E /* FBSDKGraphErrorRecoveryProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKGraphErrorRecoveryProcessor.m; path = FBSDKCoreKit/FBSDKCoreKit/GraphAPI/FBSDKGraphErrorRecoveryProcessor.m; sourceTree = "<group>"; };
-		7D4A92740DA9C9FE9CFC176CBDAA39B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/LICENSE"; sourceTree = "<group>"; };
 		7D5D5DEADDF31BAD841003726BAF7A3C /* OIDErrorUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDErrorUtilities.m; path = Source/AppAuthCore/OIDErrorUtilities.m; sourceTree = "<group>"; };
 		7D61B3F2E198215812F1E984CA248DAB /* FacebookSDK.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FacebookSDK.strings; path = he.lproj/FacebookSDK.strings; sourceTree = "<group>"; };
 		7DA64F736EEFC18E779830A8EC5D6279 /* GULNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULNetwork.m; path = GoogleUtilities/Network/GULNetwork.m; sourceTree = "<group>"; };
@@ -2108,7 +2106,6 @@
 		7EED6F3B82856D1484A16135BFEBAE02 /* FBSDKBridgeAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKBridgeAPI.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKBridgeAPI.h; sourceTree = "<group>"; };
 		7F2B6522E4C85B49851C72A97D37AF3E /* FacebookSDK.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FacebookSDK.strings; path = ml.lproj/FacebookSDK.strings; sourceTree = "<group>"; };
 		7F32862671EB6043E5F24BC6D891ECF6 /* GULHeartbeatDateStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULHeartbeatDateStorage.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorage.h; sourceTree = "<group>"; };
-		7F6E16010AA94EF4AF55F5DA8AE4EB10 /* onesignal_flutter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = onesignal_flutter.modulemap; sourceTree = "<group>"; };
 		7F7B75E45462770B3F553C058F569403 /* FBSDKCoreKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSDKCoreKit-dummy.m"; sourceTree = "<group>"; };
 		7F8592DD2E01C1F37315844E95714CC6 /* FacebookSDK.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FacebookSDK.strings; path = fi.lproj/FacebookSDK.strings; sourceTree = "<group>"; };
 		7FACDD2ED69BB96907B509538EEA0AE0 /* onesignal_flutter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = onesignal_flutter; path = onesignal_flutter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2121,7 +2118,6 @@
 		80E7907A7402319E2D787555B2D4F03D /* flutter_tts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_tts-prefix.pch"; sourceTree = "<group>"; };
 		80EE4BD00A5EC2259AD871C202403307 /* NSUserDefaults+FBSDKDataPersisting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+FBSDKDataPersisting.h"; path = "FBSDKCoreKit/FBSDKCoreKit/Internal/NSUserDefaults+FBSDKDataPersisting.h"; sourceTree = "<group>"; };
 		810D66A92D54CA28DC786EB49553E3A6 /* FBSDKFeature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKFeature.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKFeature.h; sourceTree = "<group>"; };
-		81816AAC0E4BF7A02DA5B344A0DD5469 /* OSFlutterOutcomeEventsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSFlutterOutcomeEventsController.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/Classes/OSFlutterOutcomeEventsController.h"; sourceTree = "<group>"; };
 		81B88F64203D88611848D90EFFA89D93 /* share-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "share-prefix.pch"; sourceTree = "<group>"; };
 		826DF4E0FAE77B7D410DBFE389FA22D5 /* FBSDKBridgeAPIResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKBridgeAPIResponse.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKBridgeAPIResponse.h; sourceTree = "<group>"; };
 		827C48E2EDE82B2EA2FA5CCA4C274B51 /* google_mobile_ads-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "google_mobile_ads-Info.plist"; sourceTree = "<group>"; };
@@ -2137,7 +2133,6 @@
 		849C5A5F9FE52B7A85B6441F31274428 /* FBSDKAtePublisherCreating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAtePublisherCreating.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAtePublisherCreating.h; sourceTree = "<group>"; };
 		84C4594885344422A69A36DDB56B0386 /* fluttertoast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = fluttertoast.debug.xcconfig; sourceTree = "<group>"; };
 		84C96F90F6877516EE13B4BEE5F9E9F8 /* FBSDKAppEventsNumberParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAppEventsNumberParser.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsNumberParser.h; sourceTree = "<group>"; };
-		8514A4BE6359381CE8D22283C1C7D8C3 /* OSFlutterOutcomeEventsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSFlutterOutcomeEventsController.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/Classes/OSFlutterOutcomeEventsController.m"; sourceTree = "<group>"; };
 		8526E037C3743A7E68A5ED2B66244A53 /* FlutterWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterWebView.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-2.0.10/ios/Classes/FlutterWebView.h"; sourceTree = "<group>"; };
 		857958BFDFD0504166AAE7C840796E30 /* FBSDKCoreKit_Basics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSDKCoreKit_Basics-Info.plist"; sourceTree = "<group>"; };
 		858B41D11C28F1615D22230F0490403E /* path_provider_ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "path_provider_ios-prefix.pch"; sourceTree = "<group>"; };
@@ -2212,7 +2207,6 @@
 		9301C49BD1240426522D02927ED298DB /* FBSDKSKAdNetworkReporter+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKSKAdNetworkReporter+Internal.h"; path = "FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/SKAdNetwork/FBSDKSKAdNetworkReporter+Internal.h"; sourceTree = "<group>"; };
 		9307334FB6189AD73172B8701ED3D029 /* FLTGoogleSignInPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTGoogleSignInPlugin.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.1/ios/Classes/FLTGoogleSignInPlugin.h"; sourceTree = "<group>"; };
 		935674B7152F2790904EFAE7FB18A403 /* GoogleUserMessagingPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUserMessagingPlatform.debug.xcconfig; sourceTree = "<group>"; };
-		93B6C94B40682B9E28717BA5C7F1E80C /* OSFlutterInAppMessagesController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSFlutterInAppMessagesController.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/Classes/OSFlutterInAppMessagesController.m"; sourceTree = "<group>"; };
 		93B9AAB8CB364DEF1320E19272CDD2D2 /* GoogleAppMeasurement-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleAppMeasurement-xcframeworks.sh"; sourceTree = "<group>"; };
 		93D30537C0A32A6DC6C21C5A37A00218 /* UIView+Toast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Toast.h"; path = "Toast/UIView+Toast.h"; sourceTree = "<group>"; };
 		942337733484FF071F08E4865D671B5D /* FBSDKHybridAppEventsScriptMessageHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKHybridAppEventsScriptMessageHandler.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKHybridAppEventsScriptMessageHandler.m; sourceTree = "<group>"; };
@@ -2227,9 +2221,11 @@
 		967E53BCA0E4E4F1A182E5D4F76758A0 /* FBSDKErrorReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKErrorReport.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Instrument/ErrorReport/FBSDKErrorReport.h; sourceTree = "<group>"; };
 		96A12C1233693D7F5C0890933CDD7912 /* FBSDKCodelessIndexer+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKCodelessIndexer+Internal.h"; path = "FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKCodelessIndexer+Internal.h"; sourceTree = "<group>"; };
 		96B99E09513899BE25543B8BDDB25418 /* FBLPromisePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromisePrivate.h; path = Sources/FBLPromises/include/FBLPromisePrivate.h; sourceTree = "<group>"; };
+		96E82E70F1774FFA45ED1DD3A01CD3B3 /* onesignal_flutter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = onesignal_flutter.modulemap; sourceTree = "<group>"; };
 		970C6A603DF4724E80C4572671FB13A8 /* FBSDKTokenCaching.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKTokenCaching.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKTokenCaching.h; sourceTree = "<group>"; };
 		9716C830BDB034FAC6ECF54EE816EEF4 /* Pods-Runner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-resources.sh"; sourceTree = "<group>"; };
 		973E76A2DA23B84428D377AE0F46E643 /* FBSDKProductRequestFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKProductRequestFactory.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKProductRequestFactory.h; sourceTree = "<group>"; };
+		975156E4F7DF233980C8DF45051AB02A /* onesignal_flutter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "onesignal_flutter-prefix.pch"; sourceTree = "<group>"; };
 		978B718E9E47B5F11EFD29FEA0BFD409 /* GULKeychainUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULKeychainUtils.h; path = GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainUtils.h; sourceTree = "<group>"; };
 		97A5EBCD54D76B18EA10E83061526704 /* FBSDKCodelessParameterComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKCodelessParameterComponent.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Codeless/FBSDKCodelessParameterComponent.h; sourceTree = "<group>"; };
 		981B156CDF86C24CA83A64376A8BAC83 /* FBSDKSKAdNetworkReporter+AppEventsReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKSKAdNetworkReporter+AppEventsReporter.h"; path = "FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/SKAdNetwork/FBSDKSKAdNetworkReporter+AppEventsReporter.h"; sourceTree = "<group>"; };
@@ -2253,7 +2249,6 @@
 		9C1F5CE0B84677D07C89023BBDE74134 /* FBLPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBLPromise.h; path = Sources/FBLPromises/include/FBLPromise.h; sourceTree = "<group>"; };
 		9CC597697F187645B9E17AA7ECEE75C1 /* FBSDKDynamicFrameworkLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKDynamicFrameworkLoader.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKDynamicFrameworkLoader.h; sourceTree = "<group>"; };
 		9D396EA0B31E81F60989E11302D96FA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9D80E27022E6018E7898F3B59632D15B /* OneSignalPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OneSignalPlugin.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/Classes/OneSignalPlugin.h"; sourceTree = "<group>"; };
 		9D9317C7C0AC265280FAFF1816683806 /* FBSDKLoginError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKLoginError.h; path = FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKLoginError.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE2C5FB92889028E9DAEBC81231108D /* shared_preferences_ios */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = shared_preferences_ios; path = shared_preferences_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2316,7 +2311,6 @@
 		AA09D6B3BB77EBE814B32AD6CFC4EECB /* OIDAuthState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDAuthState.h; path = Source/AppAuthCore/OIDAuthState.h; sourceTree = "<group>"; };
 		AA583AC9C924356411128360E2107EDF /* FBLPromise+Then.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBLPromise+Then.h"; path = "Sources/FBLPromises/include/FBLPromise+Then.h"; sourceTree = "<group>"; };
 		AA6DB7F575F90CC3EF0D1C1B397403AF /* FBSDKLoginManager+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKLoginManager+Internal.h"; path = "FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKLoginManager+Internal.h"; sourceTree = "<group>"; };
-		AA7882E9DB6D81CEBD2242B5DFAFD577 /* onesignal_flutter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "onesignal_flutter-dummy.m"; sourceTree = "<group>"; };
 		AAFDB9373842597A3CF742A28F048D2F /* FacebookSDK.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FacebookSDK.strings; path = hr.lproj/FacebookSDK.strings; sourceTree = "<group>"; };
 		AB304513B8F5EECF7711AD7D454EFF81 /* FBSDKAuthenticationToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAuthenticationToken.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKAuthenticationToken.h; sourceTree = "<group>"; };
 		AB970F2FB771E69F283A1D7571773EF5 /* flutter_facebook_auth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "flutter_facebook_auth-Info.plist"; sourceTree = "<group>"; };
@@ -2384,6 +2378,7 @@
 		B93D2EBEEEE18900E22BCDB7AC66A2E3 /* FBSDKSKAdNetworkConversionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKSKAdNetworkConversionConfiguration.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/SKAdNetwork/FBSDKSKAdNetworkConversionConfiguration.m; sourceTree = "<group>"; };
 		B9897E07DBBEA23B724810C4193202AA /* FBSDKClientTokenProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKClientTokenProviding.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKClientTokenProviding.h; sourceTree = "<group>"; };
 		B98EB55ADA628180FD389E57632CB101 /* flutter_tts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_tts-dummy.m"; sourceTree = "<group>"; };
+		B9D9ED666E63C8C55E0A4BE8AB0E88F9 /* onesignal_flutter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "onesignal_flutter-umbrella.h"; sourceTree = "<group>"; };
 		B9E6BFA84D99FD39750D93A3D067586E /* FBSDKURLSessionTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKURLSessionTask.h; path = Sources/FBSDKCoreKit_Basics/include/FBSDKURLSessionTask.h; sourceTree = "<group>"; };
 		B9E917EA22B85EDEB0F3EA9FA812BF7C /* FBSDKCrashObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKCrashObserver.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Instrument/CrashReport/FBSDKCrashObserver.h; sourceTree = "<group>"; };
 		BA687274F9C8479C5375D77C27180D3B /* Google-Mobile-Ads-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -2396,6 +2391,7 @@
 		BB671586A23DC9D4E4CE49EE518D2916 /* GULLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GULLogger.m; path = GoogleUtilities/Logger/GULLogger.m; sourceTree = "<group>"; };
 		BBA880AB430E6EC51291D679BC9888FC /* FBSDKAppStoreReceiptProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAppStoreReceiptProviding.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppStoreReceiptProviding.h; sourceTree = "<group>"; };
 		BBCEF85A0F4A4C116459FFD96FA117FE /* FBSDKBridgeAPIResponseFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKBridgeAPIResponseFactory.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/BridgeAPI/FBSDKBridgeAPIResponseFactory.m; sourceTree = "<group>"; };
+		BBFE44568BF57C621623A5BB4CEF88DE /* OSFlutterCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSFlutterCategories.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/Classes/OSFlutterCategories.h"; sourceTree = "<group>"; };
 		BC01D2C01CDFFB8CD0B59E98652D8CF1 /* GULLoggerCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULLoggerCodes.h; path = GoogleUtilities/Common/GULLoggerCodes.h; sourceTree = "<group>"; };
 		BCF2B92ED93BF84A70ADEA664ED5DC18 /* webview_cookie_manager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = webview_cookie_manager; path = webview_cookie_manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD158DBCFFBF35D2609FA09F1CDFC138 /* FBSDKModelManager+IntegrityProcessing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKModelManager+IntegrityProcessing.h"; path = "FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ML/FBSDKModelManager+IntegrityProcessing.h"; sourceTree = "<group>"; };
@@ -2481,6 +2477,7 @@
 		CE0CA6E1EAC3DEA646856AA0CD699914 /* FBSDKLoginCompletion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKLoginCompletion.h; path = FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKLoginCompletion.h; sourceTree = "<group>"; };
 		CE25CBEB5F0028BE56498B27DEC672D6 /* OIDURLSessionProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OIDURLSessionProvider.h; path = Source/AppAuthCore/OIDURLSessionProvider.h; sourceTree = "<group>"; };
 		CE271DD1C8E472266D106C1B9654BFAB /* FBSDKMeasurementEventListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKMeasurementEventListener.h; path = FBSDKCoreKit/FBSDKCoreKit/AppLink/Internal/FBSDKMeasurementEventListener.h; sourceTree = "<group>"; };
+		CE322AB8D0005FAE92441F16A2E0CE03 /* OSFlutterTagsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSFlutterTagsController.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/Classes/OSFlutterTagsController.m"; sourceTree = "<group>"; };
 		CE47FD1616B690B686B8DD2E53EB4ACC /* FLTGoogleMobileAdsReaderWriter_Internal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLTGoogleMobileAdsReaderWriter_Internal.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_mobile_ads-0.13.3/ios/Classes/FLTGoogleMobileAdsReaderWriter_Internal.m"; sourceTree = "<group>"; };
 		CE8F0A7A6A0F4C6C98897DD9F540DAA8 /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 		CEE50826F7B0A93310967228EF1F722A /* shared_preferences_ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = shared_preferences_ios.podspec; path = "../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_ios-2.0.9/ios/shared_preferences_ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -2528,6 +2525,7 @@
 		D72C5F5A14064A2B1D52300F7D9BF85D /* flutter_facebook_auth */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = flutter_facebook_auth; path = flutter_facebook_auth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74831683D6E0275DB80D19D471FB0D6 /* FLTURLLauncherPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTURLLauncherPlugin.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/ios/Classes/FLTURLLauncherPlugin.h"; sourceTree = "<group>"; };
 		D8221E4EDD757E070E47B8931187E58E /* FBSDKObjectDecoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKObjectDecoding.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKObjectDecoding.h; sourceTree = "<group>"; };
+		D822AFF3C11C52E40BF02F5042A0673E /* OneSignalPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OneSignalPlugin.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/Classes/OneSignalPlugin.m"; sourceTree = "<group>"; };
 		D8466B9B7E7194A18E25741FACD77F0A /* FBSDKRestrictiveDataFilterManager+Protocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FBSDKRestrictiveDataFilterManager+Protocols.h"; path = "FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/Integrity/FBSDKRestrictiveDataFilterManager+Protocols.h"; sourceTree = "<group>"; };
 		D86F32C5889633A1F452F38080EC1A75 /* FBSDKCrashObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKCrashObserver.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Instrument/CrashReport/FBSDKCrashObserver.m; sourceTree = "<group>"; };
 		D8707172AA29B209C3C3AE04292FDFDD /* GoogleSignIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleSignIn.debug.xcconfig; sourceTree = "<group>"; };
@@ -2564,6 +2562,7 @@
 		E001BE1920774CA37A2EDA2E21E71812 /* wakelock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "wakelock-umbrella.h"; sourceTree = "<group>"; };
 		E02616C56E8EDE407C18494E951FEC46 /* FBSDKFileDataExtracting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKFileDataExtracting.h; path = Sources/FBSDKCoreKit_Basics/include/FBSDKFileDataExtracting.h; sourceTree = "<group>"; };
 		E048BF43D350270E2BD97E13C30B0AB4 /* share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = share.debug.xcconfig; sourceTree = "<group>"; };
+		E05484DBB592C11449CAE92EFF749AEA /* OneSignalPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OneSignalPlugin.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/Classes/OneSignalPlugin.h"; sourceTree = "<group>"; };
 		E10B40228774FAF6F83A8EC62A5E7901 /* FBLPromise+Any.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Any.m"; path = "Sources/FBLPromises/FBLPromise+Any.m"; sourceTree = "<group>"; };
 		E10B8D671197EDE75BE132FB011AA577 /* FBSDKURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKURL.h; path = FBSDKCoreKit/FBSDKCoreKit/include/FBSDKURL.h; sourceTree = "<group>"; };
 		E138C11C41DCC22065D593A1649BDCC6 /* FBSDKAppEventsConfigurationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAppEventsConfigurationProtocol.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsConfigurationProtocol.h; sourceTree = "<group>"; };
@@ -2591,6 +2590,8 @@
 		E7D75B23531EB7558E6B5CADB71220EA /* FBSDKMonotonicTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKMonotonicTime.h; path = FBSDKLoginKit/FBSDKLoginKit/Internal/FBSDKMonotonicTime.h; sourceTree = "<group>"; };
 		E7E77837B9F69F0FC2661F768A52B380 /* FLTGoogleMobileAdsCollection_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTGoogleMobileAdsCollection_Internal.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_mobile_ads-0.13.3/ios/Classes/FLTGoogleMobileAdsCollection_Internal.h"; sourceTree = "<group>"; };
 		E7F1AD1ABE7C380C3462AC2D26014CBD /* FBSDKServerConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKServerConfiguration.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/ServerConfiguration/FBSDKServerConfiguration.h; sourceTree = "<group>"; };
+		E7FA1DA8CBC59626F85BB024F580C71D /* OSFlutterOutcomeEventsController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OSFlutterOutcomeEventsController.m; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/Classes/OSFlutterOutcomeEventsController.m"; sourceTree = "<group>"; };
+		E81CBD2714C8411C2B18A9F4F95BC8A7 /* onesignal_flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = onesignal_flutter.podspec; path = "../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios/onesignal_flutter.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E8401FBEAE2E600596B4B1EB71F0C3B1 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		E890DE84BDF38C6DB6A83AEC4F98BEA2 /* OIDExternalUserAgentCatalyst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDExternalUserAgentCatalyst.m; path = Source/AppAuth/iOS/OIDExternalUserAgentCatalyst.m; sourceTree = "<group>"; };
 		E93EA63E33171D05686929E31CC83E2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_tts-3.2.2/LICENSE"; sourceTree = "<group>"; };
@@ -2638,6 +2639,7 @@
 		F25BED3724478F252C880D6977CC65E7 /* JavaScriptChannelHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JavaScriptChannelHandler.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-2.0.10/ios/Classes/JavaScriptChannelHandler.h"; sourceTree = "<group>"; };
 		F2DF23EF07DE90945F880F122B7EA841 /* FBSDKTimeSpentRecordingFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKTimeSpentRecordingFactory.h; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKTimeSpentRecordingFactory.h; sourceTree = "<group>"; };
 		F30AF6CA11EF21A262A3A4538F7E9A44 /* FBSDKGraphRequestPiggybackManagerProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKGraphRequestPiggybackManagerProviding.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Network/FBSDKGraphRequestPiggybackManagerProviding.h; sourceTree = "<group>"; };
+		F3164A7327881D90D456E5ABE457541C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/LICENSE"; sourceTree = "<group>"; };
 		F33E363C67CC76A1A327A2DD6FA6A4DB /* share-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "share-umbrella.h"; sourceTree = "<group>"; };
 		F346EAC3780B3EF924F9031A86D0A5AE /* FBSDKViewHierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKViewHierarchy.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/ViewHierarchy/FBSDKViewHierarchy.m; sourceTree = "<group>"; };
 		F39DD6A3639E2A2232A4DAA8652FED05 /* webview_flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = webview_flutter.release.xcconfig; sourceTree = "<group>"; };
@@ -2675,14 +2677,12 @@
 		FA9A27085BB8CB625CF741FA1B30C719 /* FBSDKAccessTokenExpirer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSDKAccessTokenExpirer.h; path = FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenExpirer.h; sourceTree = "<group>"; };
 		FAE0038B2CC14D2938AB721A142BA3AC /* FBLPromise+Async.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FBLPromise+Async.m"; path = "Sources/FBLPromises/FBLPromise+Async.m"; sourceTree = "<group>"; };
 		FB0BDC0D56A86AFA24218460B864975D /* FLTMobileAds_Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLTMobileAds_Internal.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_mobile_ads-0.13.3/ios/Classes/FLTMobileAds_Internal.h"; sourceTree = "<group>"; };
-		FB3843667DDC3FB8689AEA094903189B /* onesignal_flutter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "onesignal_flutter-Info.plist"; sourceTree = "<group>"; };
 		FB4A5B3B1BC7F3BE0FA3359AF6973426 /* FBSDKInstrumentManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKInstrumentManager.m; path = FBSDKCoreKit/FBSDKCoreKit/Internal/Instrument/FBSDKInstrumentManager.m; sourceTree = "<group>"; };
 		FB5480157CE3D50373C0A0172EE0C568 /* FacebookSDK.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FacebookSDK.strings; path = zh.lproj/FacebookSDK.strings; sourceTree = "<group>"; };
 		FB675E5579B129236F04E5F4D6930A7A /* FBSDKTimeSpentRecordingFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKTimeSpentRecordingFactory.m; path = FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKTimeSpentRecordingFactory.m; sourceTree = "<group>"; };
 		FBB6958E8270C9D6BDE346BB25D2FC7F /* GULReachabilityChecker+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GULReachabilityChecker+Internal.h"; path = "GoogleUtilities/Reachability/GULReachabilityChecker+Internal.h"; sourceTree = "<group>"; };
 		FBC8D92E23520DA6598BA1F705AD8741 /* GULReachabilityMessageCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GULReachabilityMessageCode.h; path = GoogleUtilities/Reachability/GULReachabilityMessageCode.h; sourceTree = "<group>"; };
 		FBD67CA41007FDD1CB66840887BC16B0 /* OIDAuthorizationRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDAuthorizationRequest.m; path = Source/AppAuthCore/OIDAuthorizationRequest.m; sourceTree = "<group>"; };
-		FC23CEB8FA26AEEB550486B84D5040AE /* OSFlutterCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OSFlutterCategories.h; path = "../../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios/Classes/OSFlutterCategories.h"; sourceTree = "<group>"; };
 		FC95DBECCD82FA94ABD964BA644F7F76 /* FBSDKRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSDKRandom.m; path = FBSDKCoreKit/FBSDKCoreKit/FBSDKRandom.m; sourceTree = "<group>"; };
 		FD36FCA9F8C01C993ACEEE03DEB9192F /* OIDTokenResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OIDTokenResponse.m; path = Source/AppAuthCore/OIDTokenResponse.m; sourceTree = "<group>"; };
 		FD63A8C7089147D0D97A993AE3B13D51 /* FacebookSDK.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = FacebookSDK.strings; path = ms.lproj/FacebookSDK.strings; sourceTree = "<group>"; };
@@ -2942,6 +2942,24 @@
 			);
 			name = ios;
 			path = ios;
+			sourceTree = "<group>";
+		};
+		018F5748BDEA9E289DAA67262A438C47 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E05484DBB592C11449CAE92EFF749AEA /* OneSignalPlugin.h */,
+				D822AFF3C11C52E40BF02F5042A0673E /* OneSignalPlugin.m */,
+				BBFE44568BF57C621623A5BB4CEF88DE /* OSFlutterCategories.h */,
+				07F4B763B8A5EE5F6875D3708402C60C /* OSFlutterCategories.m */,
+				5C08D608C11A2B7065E0623FC97ABC2D /* OSFlutterInAppMessagesController.h */,
+				4ABB3A73852FE3D8BE8E0034368C720C /* OSFlutterInAppMessagesController.m */,
+				3503F329AB0C25BB68F57DC2D90F490F /* OSFlutterOutcomeEventsController.h */,
+				E7FA1DA8CBC59626F85BB024F580C71D /* OSFlutterOutcomeEventsController.m */,
+				5F9B78492B0AE3E98B0EC50FA19FC973 /* OSFlutterTagsController.h */,
+				CE322AB8D0005FAE92441F16A2E0CE03 /* OSFlutterTagsController.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		01D2752E8A4EBB2CD35D3C37BC8334AB /* fluttertoast */ = {
@@ -3480,6 +3498,15 @@
 			path = ios;
 			sourceTree = "<group>";
 		};
+		06053D9D5754EDCA780D9ECFF38E4AA4 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				B3CC30F788DD391118EE0665EA3B5F53 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		06E691573E69902D6B8AB7615D2D6F0F /* google_mobile_ads */ = {
 			isa = PBXGroup;
 			children = (
@@ -3642,15 +3669,6 @@
 				A58365A0AE16DAB536D2E6DCFF97264E /* share.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		116D7B18C8899FB0810C14598D7B0D76 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				4F237A410CC70662BA57F0064F67958D /* .. */,
-			);
-			name = ..;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		1287DC81BAD743B84F859A60E1DD77AA /* google_sign_in */ = {
@@ -3972,6 +3990,15 @@
 			path = GoogleUserMessagingPlatform;
 			sourceTree = "<group>";
 		};
+		23730CD1D67AAADE35E05BB1868016D8 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				3E7E91EE834D7C9DC08480A21FFDA465 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		23A3BB452D0DE0C9DFEFF87AB12AAADB /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -4125,15 +4152,6 @@
 			);
 			name = ios;
 			path = ios;
-			sourceTree = "<group>";
-		};
-		2C58DF5304D142D3724EAB8B2EC9A8C0 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				8BF9C79013116518B9C3A6F9C45F68CE /* .. */,
-			);
-			name = ..;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		31127728CE48B9E54120BC6B5C71C2EF /* .. */ = {
@@ -4299,6 +4317,15 @@
 			isa = PBXGroup;
 			children = (
 				776D49CC94368ADC2E4BD352EF9A2B70 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3E7E91EE834D7C9DC08480A21FFDA465 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				89A37DDDE2C11B89B04019925CBE7E23 /* .. */,
 			);
 			name = ..;
 			path = ..;
@@ -4559,10 +4586,10 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		4EA242DD822BFD30ADFC86A78C187FC7 /* Downloads */ = {
+		4E59AF8789996365ACFE67ADC36B53EF /* Downloads */ = {
 			isa = PBXGroup;
 			children = (
-				ED280EF24F5B34CDFA915A37493314B5 /* ChinBlog */,
+				ED10F23557D9236826F0847886D539BE /* ChinBlog */,
 			);
 			name = Downloads;
 			path = Downloads;
@@ -4575,15 +4602,6 @@
 			);
 			name = google_sign_in;
 			path = google_sign_in;
-			sourceTree = "<group>";
-		};
-		4F237A410CC70662BA57F0064F67958D /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				9FB157E054A866B6846DC0C9214B58A4 /* .. */,
-			);
-			name = ..;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		4FCCBE4B4D8B1EFB7EC75C9E7FB9821C /* .. */ = {
@@ -4748,6 +4766,21 @@
 			path = ios;
 			sourceTree = "<group>";
 		};
+		5C574B2C4E5A3CA19545381B6067FE6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96E82E70F1774FFA45ED1DD3A01CD3B3 /* onesignal_flutter.modulemap */,
+				7704CB4A20CAA2AB94AC87DF1AD899B0 /* onesignal_flutter-dummy.m */,
+				01167487E6609558265BC1527E7FF99C /* onesignal_flutter-Info.plist */,
+				975156E4F7DF233980C8DF45051AB02A /* onesignal_flutter-prefix.pch */,
+				B9D9ED666E63C8C55E0A4BE8AB0E88F9 /* onesignal_flutter-umbrella.h */,
+				6CC49E8261E7EDD84247AF19CFED0238 /* onesignal_flutter.debug.xcconfig */,
+				767E7B515EDC4136F0A741079EF469E8 /* onesignal_flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/onesignal_flutter";
+			sourceTree = "<group>";
+		};
 		5C8ECC9017CFA4C9F965885FC787451D /* url_launcher */ = {
 			isa = PBXGroup;
 			children = (
@@ -4770,15 +4803,6 @@
 			);
 			name = "Support Files";
 			path = "../../../../Pods/Target Support Files/webview_cookie_manager";
-			sourceTree = "<group>";
-		};
-		5D3609F1719E13B09D749BF7AE5589F0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7D4A92740DA9C9FE9CFC176CBDAA39B0 /* LICENSE */,
-				6DE12DC03BA241B9665E83EF875605BC /* onesignal_flutter.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		5D49B6D1B2C9CB2CAEB055351C4B54E7 /* shared_preferences_ios */ = {
@@ -4934,15 +4958,6 @@
 			isa = PBXGroup;
 			children = (
 				537AA1124EF4D68887DF106DFB67555B /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		6BA4B69E0295D58D595B3620549D7694 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				4EA242DD822BFD30ADFC86A78C187FC7 /* Downloads */,
 			);
 			name = ..;
 			path = ..;
@@ -5153,15 +5168,6 @@
 			path = ChinBlog;
 			sourceTree = "<group>";
 		};
-		7A1314BB41CECA2C5082BE954BC7B1FE /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				FB75955C05341404924CE9AF3031C7DF /* Classes */,
-			);
-			name = ios;
-			path = ios;
-			sourceTree = "<group>";
-		};
 		7B66BBC5037F03E9661571E47C7FD2C8 /* video_player */ = {
 			isa = PBXGroup;
 			children = (
@@ -5318,6 +5324,15 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		82F6FDA447C0DCF17F1C6975780CA3C1 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				018F5748BDEA9E289DAA67262A438C47 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
 		83200DB1C8309389F06913D8B2F86277 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -5406,21 +5421,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		886EF534C7C1F7C4620E1FDE16E17A4A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F6E16010AA94EF4AF55F5DA8AE4EB10 /* onesignal_flutter.modulemap */,
-				AA7882E9DB6D81CEBD2242B5DFAFD577 /* onesignal_flutter-dummy.m */,
-				FB3843667DDC3FB8689AEA094903189B /* onesignal_flutter-Info.plist */,
-				5BBCBD400EEEDDF54AE8BDCB27DC5642 /* onesignal_flutter-prefix.pch */,
-				14466A409395EA5AF6703B8080586BA9 /* onesignal_flutter-umbrella.h */,
-				2DFFF0E9E262DB7C90293F6F106FD5AE /* onesignal_flutter.debug.xcconfig */,
-				24AE5D1CA10F87D559AE11544294823D /* onesignal_flutter.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../../../Pods/Target Support Files/onesignal_flutter";
-			sourceTree = "<group>";
-		};
 		894FC0E9B937889483A1B548644B9A18 /* ChinBlog */ = {
 			isa = PBXGroup;
 			children = (
@@ -5428,6 +5428,24 @@
 			);
 			name = ChinBlog;
 			path = ChinBlog;
+			sourceTree = "<group>";
+		};
+		89A37DDDE2C11B89B04019925CBE7E23 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				4E59AF8789996365ACFE67ADC36B53EF /* Downloads */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		89B6CF14A5E045E92CD93C32E2B32E0F /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				929577D89A92FCBE08D292614048F9DA /* .. */,
+			);
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		8A3B65FD96F1219F202BB997F21BD290 /* Frameworks */ = {
@@ -5456,15 +5474,6 @@
 			);
 			name = fluttertoast;
 			path = ../.symlinks/plugins/fluttertoast/ios;
-			sourceTree = "<group>";
-		};
-		8BF9C79013116518B9C3A6F9C45F68CE /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				6BA4B69E0295D58D595B3620549D7694 /* .. */,
-			);
-			name = ..;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		8D95E097718C1A80F5F0E23B512F9179 /* Classes */ = {
@@ -5503,6 +5512,15 @@
 			);
 			name = .symlinks;
 			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		929577D89A92FCBE08D292614048F9DA /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				06053D9D5754EDCA780D9ECFF38E4AA4 /* .. */,
+			);
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		94764C867769495FE2A772F9B6B893DE /* .. */ = {
@@ -5563,22 +5581,13 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		9D2397D98079F23859D337D90E8CD87D /* ios */ = {
+		A07905B2E6B0C9DB30B448D5A6CFCC9D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B383544616DC30B4AF7F106A57C58288 /* .symlinks */,
+				F3164A7327881D90D456E5ABE457541C /* LICENSE */,
+				E81CBD2714C8411C2B18A9F4F95BC8A7 /* onesignal_flutter.podspec */,
 			);
-			name = ios;
-			path = ios;
-			sourceTree = "<group>";
-		};
-		9FB157E054A866B6846DC0C9214B58A4 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				F818E2F9F18C58FE1CDAEA4E3C3AEE18 /* .. */,
-			);
-			name = ..;
-			path = ..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A18852857DFA1A8D9F5B2B4788E0EF93 /* Pod */ = {
@@ -5691,15 +5700,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/GoogleUtilities";
-			sourceTree = "<group>";
-		};
-		A91A9684F420987F85A3E2B50DB46605 /* plugins */ = {
-			isa = PBXGroup;
-			children = (
-				CEE7BEE41D2064B8ECD783A06EE5210E /* onesignal_flutter */,
-			);
-			name = plugins;
-			path = plugins;
 			sourceTree = "<group>";
 		};
 		A963E6FD3ECADD22440DF8AB1E14B53F /* webview_cookie_manager */ = {
@@ -5860,17 +5860,6 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
-		B1F394A69C59135F5D7A3302243DD3D0 /* onesignal_flutter */ = {
-			isa = PBXGroup;
-			children = (
-				E373A6D628DAC9D52349B0B5CC4BF9E8 /* .. */,
-				5D3609F1719E13B09D749BF7AE5589F0 /* Pod */,
-				886EF534C7C1F7C4620E1FDE16E17A4A /* Support Files */,
-			);
-			name = onesignal_flutter;
-			path = ../.symlinks/plugins/onesignal_flutter/ios;
-			sourceTree = "<group>";
-		};
 		B26E5C5615A1F60DD8424A3D40057500 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -5895,13 +5884,13 @@
 			path = ios;
 			sourceTree = "<group>";
 		};
-		B383544616DC30B4AF7F106A57C58288 /* .symlinks */ = {
+		B3CC30F788DD391118EE0665EA3B5F53 /* .. */ = {
 			isa = PBXGroup;
 			children = (
-				A91A9684F420987F85A3E2B50DB46605 /* plugins */,
+				23730CD1D67AAADE35E05BB1868016D8 /* .. */,
 			);
-			name = .symlinks;
-			path = .symlinks;
+			name = ..;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B4412CC9AFF5F34823C4A23A37EE7FA5 /* Downloads */ = {
@@ -6148,7 +6137,7 @@
 				8B9824D80FFE4F9531AE45AC9FD43A84 /* fluttertoast */,
 				06E691573E69902D6B8AB7615D2D6F0F /* google_mobile_ads */,
 				1287DC81BAD743B84F859A60E1DD77AA /* google_sign_in */,
-				B1F394A69C59135F5D7A3302243DD3D0 /* onesignal_flutter */,
+				FD2BA9F4DAA166DFF928F91C428B8454 /* onesignal_flutter */,
 				E86AC8D96BE3783CB015FAAE07960B01 /* path_provider_ios */,
 				1C0DAB629837796A5AB3C6A672AFCCEC /* share */,
 				FB892FF0AADA1DC2CD0D64566C37596B /* shared_preferences_ios */,
@@ -6244,6 +6233,15 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		CB30BAFF24C36A30FD800F6EF88C1C6F /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				89B6CF14A5E045E92CD93C32E2B32E0F /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/ios";
+			sourceTree = "<group>";
+		};
 		CB9FDD89D48052B0899D848F931F8709 /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -6289,15 +6287,6 @@
 			path = plugins;
 			sourceTree = "<group>";
 		};
-		CEE7BEE41D2064B8ECD783A06EE5210E /* onesignal_flutter */ = {
-			isa = PBXGroup;
-			children = (
-				7A1314BB41CECA2C5082BE954BC7B1FE /* ios */,
-			);
-			name = onesignal_flutter;
-			path = onesignal_flutter;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -6336,6 +6325,24 @@
 				76085A05FEB5BF3CB5F714C65A3AC1C4 /* webview_cookie_manager.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		D3E86E802B41B5C72D3D81C200DA51BD /* onesignal_flutter */ = {
+			isa = PBXGroup;
+			children = (
+				82F6FDA447C0DCF17F1C6975780CA3C1 /* ios */,
+			);
+			name = onesignal_flutter;
+			path = onesignal_flutter;
+			sourceTree = "<group>";
+		};
+		D482FFC389D15EF687E641FC21ED1202 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				D3E86E802B41B5C72D3D81C200DA51BD /* onesignal_flutter */,
+			);
+			name = plugins;
+			path = plugins;
 			sourceTree = "<group>";
 		};
 		D4CE1B2DA19D8E1401A5E6824DD90B21 /* ios */ = {
@@ -6429,15 +6436,6 @@
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
-		E373A6D628DAC9D52349B0B5CC4BF9E8 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				116D7B18C8899FB0810C14598D7B0D76 /* .. */,
-			);
-			name = ..;
-			path = "../../../../../../../Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/ios";
-			sourceTree = "<group>";
-		};
 		E39CA70CEEBFB6176BA61F3D1AE67F60 /* Downloads */ = {
 			isa = PBXGroup;
 			children = (
@@ -6454,6 +6452,15 @@
 			);
 			name = plugins;
 			path = plugins;
+			sourceTree = "<group>";
+		};
+		E4A2792DEF86B27C76815E75FCE0AA3C /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				F493BE84B3595D324A9781F7B7495F99 /* .symlinks */,
+			);
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		E4F9382B96ED26F1EC78CF0F99FEF2E4 /* .. */ = {
@@ -6580,10 +6587,10 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		ED280EF24F5B34CDFA915A37493314B5 /* ChinBlog */ = {
+		ED10F23557D9236826F0847886D539BE /* ChinBlog */ = {
 			isa = PBXGroup;
 			children = (
-				9D2397D98079F23859D337D90E8CD87D /* ios */,
+				E4A2792DEF86B27C76815E75FCE0AA3C /* ios */,
 			);
 			name = ChinBlog;
 			path = ChinBlog;
@@ -6743,6 +6750,15 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		F493BE84B3595D324A9781F7B7495F99 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				D482FFC389D15EF687E641FC21ED1202 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
 		F4BC055AB70D09DC8CC8EC6D32ECE38F /* .. */ = {
 			isa = PBXGroup;
 			children = (
@@ -6830,15 +6846,6 @@
 			path = "../../../../Pods/Target Support Files/wakelock";
 			sourceTree = "<group>";
 		};
-		F818E2F9F18C58FE1CDAEA4E3C3AEE18 /* .. */ = {
-			isa = PBXGroup;
-			children = (
-				2C58DF5304D142D3724EAB8B2EC9A8C0 /* .. */,
-			);
-			name = ..;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		F835C3F9748B5BE6EFB776FA85F37674 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -6923,24 +6930,6 @@
 			path = "../../../../Pods/Target Support Files/google_sign_in";
 			sourceTree = "<group>";
 		};
-		FB75955C05341404924CE9AF3031C7DF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9D80E27022E6018E7898F3B59632D15B /* OneSignalPlugin.h */,
-				5C0F14FFDDBEB732363C9821352C79E0 /* OneSignalPlugin.m */,
-				FC23CEB8FA26AEEB550486B84D5040AE /* OSFlutterCategories.h */,
-				2B86C73059EAC0E6F23BDCB8B37E4C12 /* OSFlutterCategories.m */,
-				732ACD8742C52735968C9F41B0C0FD7E /* OSFlutterInAppMessagesController.h */,
-				93B6C94B40682B9E28717BA5C7F1E80C /* OSFlutterInAppMessagesController.m */,
-				81816AAC0E4BF7A02DA5B344A0DD5469 /* OSFlutterOutcomeEventsController.h */,
-				8514A4BE6359381CE8D22283C1C7D8C3 /* OSFlutterOutcomeEventsController.m */,
-				0E01F082474F035EA70B1DB5303CB4F0 /* OSFlutterTagsController.h */,
-				4522C8533CC7916C56322DC5304A8F30 /* OSFlutterTagsController.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		FB892FF0AADA1DC2CD0D64566C37596B /* shared_preferences_ios */ = {
 			isa = PBXGroup;
 			children = (
@@ -6974,6 +6963,17 @@
 			);
 			name = ..;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		FD2BA9F4DAA166DFF928F91C428B8454 /* onesignal_flutter */ = {
+			isa = PBXGroup;
+			children = (
+				CB30BAFF24C36A30FD800F6EF88C1C6F /* .. */,
+				A07905B2E6B0C9DB30B448D5A6CFCC9D /* Pod */,
+				5C574B2C4E5A3CA19545381B6067FE6E /* Support Files */,
+			);
+			name = onesignal_flutter;
+			path = ../.symlinks/plugins/onesignal_flutter/ios;
 			sourceTree = "<group>";
 		};
 		FD49B69A63D9BD1D6A24D04546BF18DD /* .. */ = {
@@ -7299,11 +7299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5192794A730D319B750CC2C39E5AAC4 /* onesignal_flutter-umbrella.h in Headers */,
-				544281E37D122B79E2E239B1D3AAED51 /* OneSignalPlugin.h in Headers */,
-				F024B252387C4EBDDE46A8C0EF1F3D0A /* OSFlutterCategories.h in Headers */,
-				070FEDD29717658BEE8CD9570E940D80 /* OSFlutterInAppMessagesController.h in Headers */,
-				F5D42507769964A286EC8BF60D539C1F /* OSFlutterOutcomeEventsController.h in Headers */,
-				8F778E000791722C29C8D2594A9A3F92 /* OSFlutterTagsController.h in Headers */,
+				46F61170014C71A844D5AEC758E62DEE /* OneSignalPlugin.h in Headers */,
+				22F48DAD8893AABB49829126DC0A7E3E /* OSFlutterCategories.h in Headers */,
+				85B63D442441E2A5DC0D6E49DF3F4588 /* OSFlutterInAppMessagesController.h in Headers */,
+				44EB648CD758533E9953348ECE345D90 /* OSFlutterOutcomeEventsController.h in Headers */,
+				26F96C2B93B320AB2E5F2E459EE132B3 /* OSFlutterTagsController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8850,11 +8850,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				448E9678673F2478367609E763C99741 /* onesignal_flutter-dummy.m in Sources */,
-				9254A834C29F2040F9A293D9EFFD1346 /* OneSignalPlugin.m in Sources */,
-				670BD899E02246D582C48643B30F4FC2 /* OSFlutterCategories.m in Sources */,
-				CDCCE9F4B8EBED5F8D4C78556DCEBA16 /* OSFlutterInAppMessagesController.m in Sources */,
-				5137BD018E9FE654ED9EA96D105B57DA /* OSFlutterOutcomeEventsController.m in Sources */,
-				5E4BFDE6471869CBCFA3798ED8DC55F3 /* OSFlutterTagsController.m in Sources */,
+				26FEE25AB4FB378F75DA871E87E0E2F1 /* OneSignalPlugin.m in Sources */,
+				E5CFD16FF19A852D48BA943F7831546A /* OSFlutterCategories.m in Sources */,
+				FFBDE4A450674535E48B8F7DE7238F4C /* OSFlutterInAppMessagesController.m in Sources */,
+				C1288D779824E7FE4CAE5ADFD9952ACA /* OSFlutterOutcomeEventsController.m in Sources */,
+				7F9380D43B22FAC29E156DD66FB97294 /* OSFlutterTagsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -10730,7 +10730,7 @@
 		};
 		404361B9F2FD8422786EEF49EBC543D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DFFF0E9E262DB7C90293F6F106FD5AE /* onesignal_flutter.debug.xcconfig */;
+			baseConfigurationReference = 6CC49E8261E7EDD84247AF19CFED0238 /* onesignal_flutter.debug.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -11507,7 +11507,7 @@
 		};
 		72DBFF2D67EEBCACCB1AFD79FBF9B5F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24AE5D1CA10F87D559AE11544294823D /* onesignal_flutter.release.xcconfig */;
+			baseConfigurationReference = 767E7B515EDC4136F0A741079EF469E8 /* onesignal_flutter.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -13468,7 +13468,7 @@
 		};
 		EE7E3AB3F0BFC8C9C046EEEA489D2B0F /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24AE5D1CA10F87D559AE11544294823D /* onesignal_flutter.release.xcconfig */;
+			baseConfigurationReference = 767E7B515EDC4136F0A741079EF469E8 /* onesignal_flutter.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

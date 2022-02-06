@@ -29,8 +29,6 @@
 -keep class com.onesignal.FCMBroadcastReceiver { <init>(); }
 -keep class com.onesignal.FCMIntentJobService { <init>(); }
 -keep class com.onesignal.FCMIntentService { <init>(); }
--keep class com.onesignal.FocusDelaySyncJobService { <init>(); }
--keep class com.onesignal.FocusDelaySyncService { <init>(); }
 -keep class com.onesignal.HmsMessageServiceOneSignal { <init>(); }
 -keep class com.onesignal.NotificationDismissReceiver { <init>(); }
 -keep class com.onesignal.NotificationOpenedActivityHMS { <init>(); }

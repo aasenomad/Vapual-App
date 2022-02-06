@@ -1,0 +1,54 @@
+[
+  {
+    "id": 2,
+    "count": 0,
+    "description": "",
+    "link": "https://chinblog.com/categories?parent=/category/falam/falam_stories",
+    "name": "Falam",
+    "slug": "falam",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [{ "href": "https://chinblog.com/wp-json/wp/v2/categories/2" }],
+      "collection": [
+        { "href": "https://chinblog.com/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://chinblog.com/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://chinblog.com/wp-json/wp/v2/posts?categories=2" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 1,
+    "description": "",
+    "link": "https://chinblog.com/categories?parent=/category/uncategorized/",
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [{ "href": "https://chinblog.com/wp-json/wp/v2/categories/1" }],
+      "collection": [
+        { "href": "https://chinblog.com/wp-json/wp/v2/categories" }
+      ],
+      "about": [
+        { "href": "https://chinblog.com/wp-json/wp/v2/taxonomies/category" }
+      ],
+      "wp:post_type": [
+        { "href": "https://chinblog.com/wp-json/wp/v2/posts?categories=1" }
+      ],
+      "curies": [
+        { "name": "wp", "href": "https://api.w.org/{rel}", "templated": true }
+      ]
+    }
+  }
+]

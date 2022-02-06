@@ -28,6 +28,7 @@ class SubCategories extends HookWidget {
 
     void getCategories() async {
       try {
+        print("ID is $id");
         loading.value = true;
         loadingError.value = false;
         isLoadMoreDone.value = false;
@@ -35,10 +36,13 @@ class SubCategories extends HookWidget {
         var response = await Network().simpleGet("/categories?parent=$id");
         var body = json.decode(response.body);
         loading.value = false;
+        print("Body from subcategory ${response.statusCode}");
+
+        print("Body from subcategory $body");
         if (response.statusCode == 200) {
           subCategories.state = body;
           var box = await Hive.openBox('appBox');
-          box.put('Subcategories', json.encode(body));
+          box.put('subcategories', json.encode(body));
         } else {
           loadingError.value = true;
         }

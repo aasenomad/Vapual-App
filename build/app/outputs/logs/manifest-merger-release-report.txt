@@ -4,20 +4,21 @@ ADDED from /Users/aasenomad/Downloads/ChinBlog/android/app/src/main/AndroidManif
 INJECTED from /Users/aasenomad/Downloads/ChinBlog/android/app/src/main/AndroidManifest.xml:1:1-71:12
 INJECTED from /Users/aasenomad/Downloads/ChinBlog/android/app/src/main/AndroidManifest.xml:1:1-71:12
 INJECTED from /Users/aasenomad/Downloads/ChinBlog/android/app/src/main/AndroidManifest.xml:1:1-71:12
-MERGED from [:google_sign_in] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.1/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:video_player] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.1.12/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
 MERGED from [:fluttertoast] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.8/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
 MERGED from [:wakelock] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/wakelock-0.5.2/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_cookie_manager] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_cookie_manager-2.0.6/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
 MERGED from [:google_mobile_ads] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_mobile_ads-0.13.3/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
 MERGED from [:flutter_tts] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_tts-3.2.2/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-15:12
-MERGED from [:onesignal_flutter] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:onesignal_flutter] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-14:12
 MERGED from [:flutter_facebook_auth] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_auth-3.5.2/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
 MERGED from [:webview_flutter] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-2.0.10/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
 MERGED from [:share] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/share-2.0.4/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:shared_preferences_android] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_android-2.0.10/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
 MERGED from [:path_provider_android] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.11/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/6332a741d124a16be5a671ad9ee19ddb/jetified-play-services-auth-19.2.0/AndroidManifest.xml:17:1-40:12
-MERGED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:2:1-143:12
+MERGED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:2:1-135:12
 MERGED from [com.facebook.android:facebook-login:11.3.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b39393b8489215d39f091371fb8099cf/jetified-facebook-login-11.3.0/AndroidManifest.xml:21:1-31:12
 MERGED from [com.facebook.android:facebook-common:11.3.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/c82dea45b6d95887b8031b092e317ba3/jetified-facebook-common-11.3.0/AndroidManifest.xml:21:1-52:12
 MERGED from [com.facebook.android:facebook-core:11.3.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/f77995d33bfd1625d2b97e13c86b8674/jetified-facebook-core-11.3.0/AndroidManifest.xml:21:1-53:12
@@ -26,8 +27,6 @@ MERGED from [com.google.android.exoplayer:exoplayer-hls:2.14.1] /Users/aasenomad
 MERGED from [com.google.android.exoplayer:exoplayer-dash:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/1eaa81939bfa4e1c34cba16836b466eb/jetified-exoplayer-dash-2.14.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/fb166649e9998f9ab273baa1a28290f6/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/cd50116fc05142dec0a3e1434b319932/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:17:1-26:12
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/a0fe53716287b8aacbd37047c33dd46b/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:17:1-26:12
 MERGED from [com.google.android.gms:play-services-ads:20.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/436836e9e9f04da54c1e1a5a6cf71b71/jetified-play-services-ads-20.1.0/AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.webkit:webkit:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/9627c3d506c2305ba4df539335e44433/webkit-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/25473da9fd2fb39be4f5a3f28dd5baea/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
@@ -54,6 +53,8 @@ MERGED from [androidx.browser:browser:1.0.0] /Users/aasenomad/.gradle/caches/tra
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/d0b550a4fc5d661556507c9b252a0c9b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/d5f28f4e61494527f682ef3892f5128b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/221facb170e3c1ff4d95523213999f38/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/a0fe53716287b8aacbd37047c33dd46b/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/bb62b6d33b460ce6012ff6183527c47f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/5b9d1c1f905a63d53d345b4e2900ab31/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.work:work-runtime:2.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/ebf48ae3b394fd24c2be0ba2120d21de/work-runtime-2.1.0/AndroidManifest.xml:17:1-125:12
@@ -122,8 +123,8 @@ MERGED from [:share] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.da
 MERGED from [:share] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/share-2.0.4/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-17:19
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/6332a741d124a16be5a671ad9ee19ddb/jetified-play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/6332a741d124a16be5a671ad9ee19ddb/jetified-play-services-auth-19.2.0/AndroidManifest.xml:22:5-38:19
-MERGED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:48:5-141:19
-MERGED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:48:5-141:19
+MERGED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:48:5-133:19
+MERGED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:48:5-133:19
 MERGED from [com.facebook.android:facebook-login:11.3.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b39393b8489215d39f091371fb8099cf/jetified-facebook-login-11.3.0/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-login:11.3.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b39393b8489215d39f091371fb8099cf/jetified-facebook-login-11.3.0/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-common:11.3.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/c82dea45b6d95887b8031b092e317ba3/jetified-facebook-common-11.3.0/AndroidManifest.xml:29:5-50:19
@@ -270,12 +271,10 @@ ADDED from /Users/aasenomad/Downloads/ChinBlog/android/app/src/main/AndroidManif
 		ADDED from /Users/aasenomad/Downloads/ChinBlog/android/app/src/main/AndroidManifest.xml:66:23-72
 uses-permission#android.permission.INTERNET
 ADDED from /Users/aasenomad/Downloads/ChinBlog/android/app/src/main/AndroidManifest.xml:70:5-66
-MERGED from [:google_sign_in] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.1/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
-MERGED from [:google_sign_in] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.1/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
 MERGED from [:google_mobile_ads] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_mobile_ads-0.13.3/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
 MERGED from [:google_mobile_ads] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_mobile_ads-0.13.3/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-67
-MERGED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:16:5-67
-MERGED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:16:5-67
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b590b93bcc2b3ea7b1a7f31c421e7ace/jetified-firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b590b93bcc2b3ea7b1a7f31c421e7ace/jetified-firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/4950b96a3d897a1bc05bed93c614ca89/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:23:5-67
@@ -288,20 +287,20 @@ uses-sdk
 INJECTED from /Users/aasenomad/Downloads/ChinBlog/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/aasenomad/Downloads/ChinBlog/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/aasenomad/Downloads/ChinBlog/android/app/src/main/AndroidManifest.xml
-MERGED from [:google_sign_in] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.1/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in-5.1.1/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:video_player] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.1.12/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:video_player] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.1.12/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:fluttertoast] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.8/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:fluttertoast] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.8/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:wakelock] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/wakelock-0.5.2/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:wakelock] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/wakelock-0.5.2/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:webview_cookie_manager] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_cookie_manager-2.0.6/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:webview_cookie_manager] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_cookie_manager-2.0.6/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:google_mobile_ads] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_mobile_ads-0.13.3/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:google_mobile_ads] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/google_mobile_ads-0.13.3/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_tts] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_tts-3.2.2/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_tts] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_tts-3.2.2/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:onesignal_flutter] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:onesignal_flutter] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.7/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:onesignal_flutter] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:onesignal_flutter] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/onesignal_flutter-3.2.8/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-6.0.9/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_facebook_auth] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_auth-3.5.2/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
@@ -310,12 +309,14 @@ MERGED from [:webview_flutter] /Users/aasenomad/Developer/flutter/.pub-cache/hos
 MERGED from [:webview_flutter] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-2.0.10/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:share] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/share-2.0.4/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:share] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/share-2.0.4/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_android-2.0.10/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_android-2.0.10/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.11/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] /Users/aasenomad/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.11/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/6332a741d124a16be5a671ad9ee19ddb/jetified-play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:19.2.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/6332a741d124a16be5a671ad9ee19ddb/jetified-play-services-auth-19.2.0/AndroidManifest.xml:20:5-44
-MERGED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:4:5-44
-MERGED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:4:5-44
 MERGED from [com.facebook.android:facebook-login:11.3.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b39393b8489215d39f091371fb8099cf/jetified-facebook-login-11.3.0/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-login:11.3.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b39393b8489215d39f091371fb8099cf/jetified-facebook-login-11.3.0/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-common:11.3.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/c82dea45b6d95887b8031b092e317ba3/jetified-facebook-common-11.3.0/AndroidManifest.xml:25:5-27:41
@@ -332,10 +333,6 @@ MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Use
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/fb166649e9998f9ab273baa1a28290f6/jetified-exoplayer-smoothstreaming-2.14.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/cd50116fc05142dec0a3e1434b319932/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/cd50116fc05142dec0a3e1434b319932/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/a0fe53716287b8aacbd37047c33dd46b/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/a0fe53716287b8aacbd37047c33dd46b/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-ads:20.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/436836e9e9f04da54c1e1a5a6cf71b71/jetified-play-services-ads-20.1.0/AndroidManifest.xml:21:5-23:52
 MERGED from [com.google.android.gms:play-services-ads:20.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/436836e9e9f04da54c1e1a5a6cf71b71/jetified-play-services-ads-20.1.0/AndroidManifest.xml:21:5-23:52
 MERGED from [androidx.webkit:webkit:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/9627c3d506c2305ba4df539335e44433/webkit-1.0.0/AndroidManifest.xml:20:5-44
@@ -388,6 +385,10 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/aasenomad/.
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/d5f28f4e61494527f682ef3892f5128b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/221facb170e3c1ff4d95523213999f38/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/221facb170e3c1ff4d95523213999f38/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/a0fe53716287b8aacbd37047c33dd46b/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/a0fe53716287b8aacbd37047c33dd46b/jetified-exoplayer-extractor-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/bb62b6d33b460ce6012ff6183527c47f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/bb62b6d33b460ce6012ff6183527c47f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/5b9d1c1f905a63d53d345b4e2900ab31/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -531,33 +532,33 @@ ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/aasenomad/.
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:19.2.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/6332a741d124a16be5a671ad9ee19ddb/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:7:5-9:47
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:7:5-9:47
 	android:protectionLevel
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:9:9-44
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:9:9-44
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:8:9-63
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:8:9-63
 permission#com.vapual.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:7:5-9:47
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:7:5-9:47
 	android:protectionLevel
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:9:9-44
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:9:9-44
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:8:9-63
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:8:9-63
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:11:5-79
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:11:22-76
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:11:22-76
 uses-permission#com.vapual.permission.C2D_MESSAGE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:11:5-79
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:11:22-76
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:11:22-76
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:17:5-82
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:17:5-82
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b590b93bcc2b3ea7b1a7f31c421e7ace/jetified-firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b590b93bcc2b3ea7b1a7f31c421e7ace/jetified-firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:17:22-79
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:17:22-79
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:18:5-68
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:18:5-68
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b590b93bcc2b3ea7b1a7f31c421e7ace/jetified-firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b590b93bcc2b3ea7b1a7f31c421e7ace/jetified-firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/f3c66685f5975e0c2082ff251b6f1b34/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:25:5-68
@@ -565,263 +566,247 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /U
 MERGED from [androidx.work:work-runtime:2.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/ebf48ae3b394fd24c2be0ba2120d21de/work-runtime-2.1.0/AndroidManifest.xml:25:5-68
 MERGED from [androidx.work:work-runtime:2.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/ebf48ae3b394fd24c2be0ba2120d21de/work-runtime-2.1.0/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:18:22-65
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:18:22-65
 uses-permission#android.permission.VIBRATE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:23:5-66
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:23:5-66
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:23:22-63
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:23:22-63
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:24:5-79
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/cd50116fc05142dec0a3e1434b319932/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/cd50116fc05142dec0a3e1434b319932/jetified-exoplayer-core-2.14.1/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b590b93bcc2b3ea7b1a7f31c421e7ace/jetified-firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/b590b93bcc2b3ea7b1a7f31c421e7ace/jetified-firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/4950b96a3d897a1bc05bed93c614ca89/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:20.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/4950b96a3d897a1bc05bed93c614ca89/jetified-play-services-ads-lite-20.1.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/f3c66685f5975e0c2082ff251b6f1b34/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:18.0.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/f3c66685f5975e0c2082ff251b6f1b34/jetified-play-services-measurement-sdk-api-18.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.14.1] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/317fb5fcc4493f1e0e91ca49e31251e3/jetified-exoplayer-common-2.14.1/AndroidManifest.xml:24:5-79
 MERGED from [androidx.work:work-runtime:2.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/ebf48ae3b394fd24c2be0ba2120d21de/work-runtime-2.1.0/AndroidManifest.xml:26:5-79
 MERGED from [androidx.work:work-runtime:2.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/ebf48ae3b394fd24c2be0ba2120d21de/work-runtime-2.1.0/AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:24:22-76
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:24:22-76
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:29:5-81
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:29:5-81
 MERGED from [androidx.work:work-runtime:2.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/ebf48ae3b394fd24c2be0ba2120d21de/work-runtime-2.1.0/AndroidManifest.xml:27:5-81
 MERGED from [androidx.work:work-runtime:2.1.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/ebf48ae3b394fd24c2be0ba2120d21de/work-runtime-2.1.0/AndroidManifest.xml:27:5-81
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:29:22-78
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:29:22-78
 uses-permission#com.sec.android.provider.badge.permission.READ
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:31:5-86
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:31:5-86
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:31:22-83
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:31:22-83
 uses-permission#com.sec.android.provider.badge.permission.WRITE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:32:5-87
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:32:5-87
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:32:22-84
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:32:22-84
 uses-permission#com.htc.launcher.permission.READ_SETTINGS
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:33:5-81
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:33:5-81
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:33:22-78
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:33:22-78
 uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:34:5-83
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:34:5-83
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:34:22-80
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:34:22-80
 uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:35:5-88
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:35:5-88
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:35:22-85
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:35:22-85
 uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:36:5-92
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:36:5-92
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:36:22-89
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:36:22-89
 uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:37:5-84
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:37:5-84
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:37:22-81
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:37:22-81
 uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:38:5-83
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:38:5-83
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:38:22-80
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:38:22-80
 uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:39:5-91
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:39:5-91
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:39:22-88
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:39:22-88
 uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:40:5-92
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:40:5-92
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:40:22-89
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:40:22-89
 uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:41:5-93
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:41:5-93
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:41:22-90
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:41:22-90
 uses-permission#android.permission.READ_APP_BADGE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:42:5-73
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:42:5-73
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:42:22-70
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:42:22-70
 uses-permission#com.oppo.launcher.permission.READ_SETTINGS
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:43:5-82
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:43:5-82
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:43:22-79
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:43:22-79
 uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:44:5-83
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:44:5-83
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:44:22-80
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:44:22-80
 uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:45:5-88
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:45:5-88
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:45:22-85
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:45:22-85
 uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:46:5-89
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:46:5-89
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:46:22-86
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:46:22-86
 receiver#com.onesignal.FCMBroadcastReceiver
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:49:9-60:20
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:49:9-60:20
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:51:13-36
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:51:13-36
 	android:permission
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:52:13-73
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:52:13-73
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:50:13-62
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:50:13-62
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:55:13-59:29
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:55:13-59:29
 	android:priority
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:55:28-50
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:55:28-50
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.vapual
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:55:13-59:29
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:55:13-59:29
 	android:priority
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:55:28-50
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:55:28-50
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:56:17-81
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:56:17-81
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:56:25-78
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:56:25-78
 category#${applicationId}
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:58:17-61
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:58:17-61
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:58:27-58
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:58:27-58
 category#com.vapual
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:58:17-61
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:58:17-61
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:58:27-58
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:58:27-58
 service#com.onesignal.HmsMessageServiceOneSignal
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:62:9-68:19
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:62:9-68:19
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:64:13-37
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:64:13-37
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:63:13-68
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:63:13-68
 intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:65:13-67:29
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:65:13-67:29
 action#com.huawei.push.action.MESSAGING_EVENT
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:66:17-81
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:66:17-81
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:66:25-78
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:66:25-78
 activity#com.onesignal.NotificationOpenedActivityHMS
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:70:9-78:20
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:70:9-78:20
 	android:noHistory
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:73:13-37
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:73:13-37
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:72:13-36
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:72:13-36
 	android:theme
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:74:13-72
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:74:13-72
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:71:13-71
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:71:13-71
 intent-filter#action:name:android.intent.action.VIEW
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:75:13-77:29
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:75:13-77:29
 service#com.onesignal.FCMIntentService
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:80:9-82:40
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:80:9-82:40
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:82:13-37
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:82:13-37
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:81:13-58
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:81:13-58
 service#com.onesignal.FCMIntentJobService
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:83:9-86:72
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:83:9-86:72
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:85:13-37
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:85:13-37
 	android:permission
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:86:13-69
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:86:13-69
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:84:13-61
-service#com.onesignal.FocusDelaySyncService
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:87:9-90:43
-	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:89:13-37
-	android:stopWithTask
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:90:13-40
-	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:88:13-63
-service#com.onesignal.FocusDelaySyncJobService
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:91:9-94:72
-	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:93:13-37
-	android:permission
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:94:13-69
-	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:92:13-66
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:84:13-61
 service#com.onesignal.SyncService
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:95:9-98:43
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:87:9-90:43
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:97:13-37
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:89:13-37
 	android:stopWithTask
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:98:13-40
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:90:13-40
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:96:13-53
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:88:13-53
 service#com.onesignal.SyncJobService
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:99:9-102:72
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:91:9-94:72
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:101:13-37
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:93:13-37
 	android:permission
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:102:13-69
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:94:13-69
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:100:13-56
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:92:13-56
 activity#com.onesignal.PermissionsActivity
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:104:9-107:75
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:96:9-99:75
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:106:13-37
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:98:13-37
 	android:theme
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:107:13-72
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:99:13-72
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:105:13-61
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:97:13-61
 receiver#com.onesignal.NotificationDismissReceiver
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:109:9-111:39
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:101:9-103:39
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:111:13-36
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:103:13-36
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:110:13-69
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:102:13-69
 receiver#com.onesignal.BootUpReceiver
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:112:9-119:20
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:104:9-111:20
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:114:13-36
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:106:13-36
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:113:13-56
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:105:13-56
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:115:13-118:29
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:107:13-110:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:116:17-79
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:108:17-79
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:116:25-76
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:108:25-76
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:117:17-82
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:109:17-82
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:117:25-79
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:109:25-79
 receiver#com.onesignal.UpgradeReceiver
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:120:9-126:20
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:112:9-118:20
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:122:13-36
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:114:13-36
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:121:13-57
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:113:13-57
 intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:123:13-125:29
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:115:13-117:29
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:124:17-84
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:116:17-84
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:124:25-81
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:116:25-81
 activity#com.onesignal.NotificationOpenedReceiver
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:128:9-134:75
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:120:9-126:75
 	android:excludeFromRecents
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:130:13-46
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:122:13-46
 	android:noHistory
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:132:13-37
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:124:13-37
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:131:13-36
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:123:13-36
 	android:theme
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:134:13-72
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:126:13-72
 	android:taskAffinity
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:133:13-36
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:125:13-36
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:129:13-68
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:121:13-68
 activity#com.onesignal.NotificationOpenedReceiverAndroid22AndOlder
-ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:135:9-140:75
+ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:127:9-132:75
 	android:excludeFromRecents
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:137:13-46
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:129:13-46
 	android:noHistory
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:139:13-37
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:131:13-37
 	android:exported
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:138:13-36
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:130:13-36
 	android:theme
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:140:13-72
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:132:13-72
 	android:name
-		ADDED from [com.onesignal:OneSignal:4.6.3] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/18299fd2598e99de5f37185d64d4df21/jetified-OneSignal-4.6.3/AndroidManifest.xml:136:13-85
+		ADDED from [com.onesignal:OneSignal:4.6.6] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/e6e64b99f1c445213908f75698c7446c/jetified-OneSignal-4.6.6/AndroidManifest.xml:128:13-85
 activity#com.facebook.CustomTabMainActivity
 ADDED from [com.facebook.android:facebook-common:11.3.0] /Users/aasenomad/.gradle/caches/transforms-2/files-2.1/c82dea45b6d95887b8031b092e317ba3/jetified-facebook-common-11.3.0/AndroidManifest.xml:34:9-71
 	android:name

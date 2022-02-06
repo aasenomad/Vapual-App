@@ -13,7 +13,6 @@ import 'package:vapual/utils/network.dart';
 import 'package:vapual/utils/app_actions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:google_sign_in/google_sign_in.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
@@ -89,34 +88,6 @@ class Login extends HookWidget {
         loading.value = false;
       }
     }
-
-    signInWithGoogle() async {
-      loading.value = true;
-      GoogleSignIn _googleSignIn = GoogleSignIn(
-        scopes: ['email', 'https://www.googleapis.com/auth/contacts.readonly'],
-      );
-      try {
-        await _googleSignIn.signIn();
-        List names = _googleSignIn.currentUser!.displayName!.split(' ');
-        var data = {
-          'first_name': names[0],
-          'last_name': names.length > 1 ? names[1] : '',
-          'email': _googleSignIn.currentUser!.email,
-          "billing": {
-            "first_name": names[0],
-            "last_name": names.length > 1 ? names[1] : '',
-            "email": _googleSignIn.currentUser!.email,
-          }
-        };
-
-        continueSignup(data, 'google');
-      } catch (error) {
-        print("errorrr: $error");
-        AppAction().newToastError(context, "Unable to log in.");
-        loading.value = false;
-      }
-    }
-
     signInWithFacebook() async {
       loading.value = true;
       try {
